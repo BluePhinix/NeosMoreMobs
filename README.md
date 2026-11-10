@@ -29,18 +29,11 @@ Alligator Snapping Turtle · Anaconda · Anteater · Bald Eagle · Banana Slug �
 ```
 pack/    the addon - behaviour pack, resource pack and the built .mcaddon
 docs/    posters rendered from the pack's own models
-tools/   Python build and check scripts that assemble the packs
 ```
 
-## Building from source
+## Editing the packs
 
-The packs are plain JSON, so they can be edited directly. The `tools/` scripts are what generated them:
-
-- `merge_unified.py` - merges the Alex's Mobs port with Neo's original mobs, drops duplicates and rebuilds the combined license.
-- `build_more_mobs.py`, `build_imported.py`, `build.py` - build the Neo mobs, the imported models and the original pack.
-- `check_unified.py`, `check_addon.py`, `check_biomes.py` - validation gates.
-
-They were written against the original authoring tree and use absolute paths at the top of each file, so point those at your checkout before running.
+The packs are plain JSON, so they can be edited directly - no build step. Edit the files in `pack/NeosMoreMobsUnified_BP` and `pack/NeosMoreMobsUnified_RP`, then rezip them into `NeosMoreMobsUnified.mcaddon` if you want an installable file.
 
 ## License
 
@@ -48,7 +41,7 @@ This project is shared openly, with third-party work kept under its own license:
 
 | Part | License |
 | --- | --- |
-| Code and data - behaviour JSON, entity JSON, spawn rules, loot, recipes, structures, build scripts | **MIT** - use it for anything, including commercial projects |
+| Code and data - behaviour JSON, entity JSON, spawn rules, loot, recipes, structures | **MIT** - use it for anything, including commercial projects |
 | Neo's models, textures, animations, renders and posters | **Neo's Art License 1.0** - free to use, remix and redistribute; no selling, no ad-gates, max one ad per download project |
 | Alex's Mobs 1.22.9 / Citadel port | **LGPL-3.0-or-later** |
 | Third-party models (elephant, bison, deer, whale, comb jelly, scorpion girl, Australia set) | **CC BY 4.0** |
