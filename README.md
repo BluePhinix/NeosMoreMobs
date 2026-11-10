@@ -60,7 +60,7 @@ Read [LICENSE.txt](LICENSE.txt) for the full grant and [CREDITS.txt](CREDITS.txt
 
 **You can** use, edit, retexture, re-rig, re-animate and redistribute the models, textures and animations in any free addon, mod, pack, map or video.
 
-**You must** credit *Neo (NeoPhinixMC)* and link the license, keep the license on anything you make from it, and say what you changed.
+**You must** credit *Neo (NeoPhinixMC)* with the three links below, link the license, keep the license on anything you make from it, and say what you changed.
 
 **You can't** sell the artwork or sell access to it (paid packs, Patreon/Ko-fi/Boosty gates, "donate to download"), put it behind an ad-wall or ad-shortener (adf.ly, linkvertise, ouo.io and friends), or upload it to ad-revenue mirror farms and server-list scrapers.
 
@@ -68,10 +68,28 @@ Read [LICENSE.txt](LICENSE.txt) for the full grant and [CREDITS.txt](CREDITS.txt
 
 **Note:** the Grizzly Bear and Black Bear models are CC BY-NC 4.0, and Neo's artwork is non-commercial on its own terms, so the addon as distributed must not be sold.
 
+## Crediting this project
+
+Copy this into your credits as-is:
+
+```
+Neo's More Mobs by Neo (NeoPhinixMC)
+GitHub:     https://github.com/BluePhinix/NeosMoreMobs
+CurseForge: https://www.curseforge.com/members/neophinix
+YouTube:    https://youtube.com/@neophinixmc
+License:    Neo's Art License 1.0 (see LICENSE.txt)
+```
+
+One-liner version for a single-line credit field:
+
+```
+Neo's More Mobs by Neo (NeoPhinixMC) - https://github.com/BluePhinix/NeosMoreMobs - https://www.curseforge.com/members/neophinix - https://youtube.com/@neophinixmc
+```
+
 ## Credits
 
 - [Alex's Mobs](https://github.com/AlexModGuy/AlexsMobs) and [Citadel](https://github.com/AlexModGuy/Citadel) by AlexModGuy and contributors (LGPL-3.0) - the mobs, models, textures and animations this port is built from.
 - ContinuedOak, mrhurr2859, Bada, Treeminator, Catnim and Whateverdata55 for the third-party models listed in [CREDITS.txt](CREDITS.txt).
-- Neo (NeoPhinixMC) - port, original mobs, animations and tooling.
+- Neo (NeoPhinixMC) - port, original mobs, animations and tooling. [GitHub](https://github.com/BluePhinix/NeosMoreMobs) · [CurseForge](https://www.curseforge.com/members/neophinix) · [YouTube](https://youtube.com/@neophinixmc)
 
 Not affiliated with Mojang or Microsoft.

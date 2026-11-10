@@ -1,5 +1,19 @@
 NEO'S MORE MOBS - MODEL CREDITS
 
+HOW TO CREDIT THIS PROJECT
+If you use anything from this pack, copy the block below into your credits as-is.
+
+--- copy from here ---
+Neo's More Mobs by Neo (NeoPhinixMC)
+GitHub:     https://github.com/BluePhinix/NeosMoreMobs
+CurseForge: https://www.curseforge.com/members/neophinix
+YouTube:    https://youtube.com/@neophinixmc
+License:    Neo's Art License 1.0 (see LICENSE.txt)
+--- to here ---
+
+Short version for a one-line credit field:
+Neo's More Mobs by Neo (NeoPhinixMC) - https://github.com/BluePhinix/NeosMoreMobs - https://www.curseforge.com/members/neophinix - https://youtube.com/@neophinixmc
+
 Grizzly Bear and Black Bear
 Model: "Minecraft GrizzlyBear" by ContinuedOak
 Source: https://skfb.ly/o8yAw
