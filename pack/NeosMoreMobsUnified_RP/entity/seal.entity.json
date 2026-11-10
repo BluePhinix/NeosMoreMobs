@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:seal",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/seal"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.seal"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.seal.idle",
+        "walk": "animation.alexsmobs.seal.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "move": "controller.animation.alexsmobs.ground"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#524438",
+        "overlay_color": "#160800"
+      }
+    }
+  }
+}

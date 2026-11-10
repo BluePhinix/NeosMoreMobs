@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:blue_jay",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/blue_jay"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.blue_jay"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.blue_jay.idle",
+        "walk": "animation.alexsmobs.blue_jay.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "fly": "animation.alexsmobs.blue_jay.fly",
+        "move": "controller.animation.alexsmobs.flyer"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ],
+        "scale": "0.9"
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#3F74C9",
+        "overlay_color": "#F2F2F2"
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+ "format_version": "1.8.0",
+ "minecraft:spawn_rules": {
+  "description": {
+   "identifier": "neosmoremobs:forgotten_soul",
+   "population_control": "monster"
+  },
+  "conditions": [
+   {
+    "minecraft:spawns_on_surface": {},
+    "minecraft:spawns_on_block_filter": [
+     "minecraft:soul_soil"
+    ],
+    "minecraft:brightness_filter": {
+     "min": 0,
+     "max": 15,
+     "adjust_for_weather": false
+    },
+    "minecraft:difficulty_filter": {
+     "min": "easy",
+     "max": "hard"
+    },
+    "minecraft:weight": {
+     "default": 40
+    },
+    "minecraft:herd": {
+     "min_size": 1,
+     "max_size": 3
+    },
+    "minecraft:biome_filter": {
+     "test": "has_biome_tag",
+     "operator": "==",
+     "value": "overworld"
+    }
+   }
+  ]
+ }
+}

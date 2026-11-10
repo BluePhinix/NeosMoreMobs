@@ -1,0 +1,235 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.alexsmobs.snow_leopard.walk": {
+   "loop": true,
+   "anim_time_update": "query.modified_distance_moved",
+   "bones": {
+    "tail1": {
+     "rotation": [
+      42.502,
+      "math.cos(q.anim_time * 3.8 + 114.59) * 11.459",
+      -0.0
+     ]
+    },
+    "tail2": {
+     "rotation": [
+      60.0001,
+      "math.cos(q.anim_time * 3.8 + 114.59) * 8.594",
+      -0.0
+     ]
+    },
+    "tail3": {
+     "rotation": [
+      54.9982,
+      "math.cos(q.anim_time * 4.6 + 114.59) * 8.594",
+      "-(math.cos(q.anim_time * 4.6 + 114.59) * 8.594)"
+     ]
+    },
+    "armRight": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 26.7 + 0.00) * -37.815)",
+      0.0,
+      -0.0
+     ],
+     "position": [
+      0.0,
+      "-(math.sin(q.anim_time * 26.7) * 0.600 - 0.600)",
+      0.0
+     ]
+    },
+    "armLeft": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 26.7 + 0.00) * 37.815)",
+      0.0,
+      -0.0
+     ],
+     "position": [
+      0.0,
+      "-(math.sin(q.anim_time * 26.7) * 0.600 - 0.600)",
+      0.0
+     ]
+    },
+    "legRight": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 26.7 + 0.00) * 37.815)",
+      0.0,
+      -0.0
+     ],
+     "position": [
+      0.0,
+      "-(math.sin(q.anim_time * 26.7) * 0.600 - 0.600)",
+      0.0
+     ]
+    },
+    "legLeft": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 26.7 + 0.00) * -37.815)",
+      0.0,
+      -0.0
+     ],
+     "position": [
+      0.0,
+      "-(math.sin(q.anim_time * 26.7) * 0.600 - 0.600)",
+      0.0
+     ]
+    },
+    "body": {
+     "position": [
+      0.0,
+      "-(math.sin(q.anim_time * 26.7) * 0.600 - 0.600)",
+      0.0
+     ]
+    }
+   }
+  },
+  "animation.alexsmobs.snow_leopard.idle": {
+   "loop": true,
+   "bones": {
+    "head": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 34.4 + 0.00) * 5.730 + math.cos(q.anim_time * 34.4 + 28.65) * -5.730)",
+      0.0,
+      -0.0
+     ]
+    }
+   }
+  },
+  "animation.alexsmobs.snow_leopard.attack_r": {
+   "loop": false,
+   "animation_length": 0.65,
+   "bones": {
+    "armRight": {
+     "rotation": {
+      "0.0": [
+       -0.0,
+       0.0,
+       -0.0
+      ],
+      "0.15": [
+       -25.0,
+       -20.0,
+       -0.0
+      ],
+      "0.4": [
+       90.0,
+       -30.0,
+       -0.0
+      ],
+      "0.65": [
+       -0.0,
+       0.0,
+       -0.0
+      ]
+     }
+    },
+    "body": {
+     "rotation": {
+      "0.0": [
+       -0.0,
+       0.0,
+       -0.0
+      ],
+      "0.15": [
+       -0.0,
+       -10.0,
+       -0.0
+      ],
+      "0.65": [
+       -0.0,
+       0.0,
+       -0.0
+      ]
+     }
+    },
+    "head": {
+     "rotation": {
+      "0.0": [
+       -0.0,
+       0.0,
+       -0.0
+      ],
+      "0.15": [
+       -0.0,
+       -10.0,
+       10.0
+      ],
+      "0.65": [
+       -0.0,
+       0.0,
+       -0.0
+      ]
+     }
+    }
+   }
+  },
+  "animation.alexsmobs.snow_leopard.attack_l": {
+   "loop": false,
+   "animation_length": 0.65,
+   "bones": {
+    "armLeft": {
+     "rotation": {
+      "0.0": [
+       -0.0,
+       0.0,
+       -0.0
+      ],
+      "0.15": [
+       -25.0,
+       20.0,
+       -0.0
+      ],
+      "0.4": [
+       90.0,
+       30.0,
+       -0.0
+      ],
+      "0.65": [
+       -0.0,
+       0.0,
+       -0.0
+      ]
+     }
+    },
+    "body": {
+     "rotation": {
+      "0.0": [
+       -0.0,
+       0.0,
+       -0.0
+      ],
+      "0.15": [
+       -0.0,
+       10.0,
+       -0.0
+      ],
+      "0.65": [
+       -0.0,
+       0.0,
+       -0.0
+      ]
+     }
+    },
+    "head": {
+     "rotation": {
+      "0.0": [
+       -0.0,
+       0.0,
+       -0.0
+      ],
+      "0.15": [
+       -0.0,
+       10.0,
+       -10.0
+      ],
+      "0.65": [
+       -0.0,
+       0.0,
+       -0.0
+      ]
+     }
+    }
+   }
+  }
+ }
+}

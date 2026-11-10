@@ -1,0 +1,56 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.alexsmobs.potoo.walk": {
+   "loop": true,
+   "anim_time_update": "query.modified_distance_moved",
+   "bones": {
+    "body": {
+     "rotation": [
+      -0.0,
+      0.0,
+      "-(math.cos(q.anim_time * 61.1 + 0.00) * -9.167)"
+     ]
+    }
+   }
+  },
+  "animation.alexsmobs.potoo.fly": {
+   "loop": true,
+   "bones": {
+    "body": {
+     "rotation": [
+      "-(80.000)",
+      "0.000",
+      "-(0.000)"
+     ],
+     "position": [
+      0.0,
+      "-(-math.abs(math.sin(q.anim_time * 458.4)) * 0.800)",
+      0.0
+     ]
+    },
+    "right_wing": {
+     "rotation": [
+      "-(-90.000)",
+      "90.000 + math.cos(q.anim_time * 916.7 + 0.00) * -57.296",
+      "-(0.000)"
+     ]
+    },
+    "left_wing": {
+     "rotation": [
+      "-(-90.000)",
+      "-90.000 + math.cos(q.anim_time * 916.7 + 0.00) * 57.296",
+      "-(0.000)"
+     ]
+    },
+    "tail": {
+     "rotation": [
+      "-(-60.000)",
+      "0.000",
+      "-(0.000)"
+     ]
+    }
+   }
+  }
+ }
+}

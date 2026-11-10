@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:anaconda",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/anaconda"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.anaconda"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.anaconda.idle",
+        "walk": "animation.alexsmobs.anaconda.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "move": "controller.animation.alexsmobs.ground"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#4A6B3A",
+        "overlay_color": "#1F2F1A"
+      }
+    }
+  }
+}

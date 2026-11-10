@@ -1,0 +1,282 @@
+{
+ "format_version": "1.12.0",
+ "minecraft:geometry": [
+  {
+   "description": {
+    "identifier": "geometry.alexsmobs.jerboa",
+    "texture_width": 64,
+    "texture_height": 64,
+    "visible_bounds_width": 1.8625,
+    "visible_bounds_height": 1.0819,
+    "visible_bounds_offset": [
+     0,
+     0.4716,
+     0
+    ]
+   },
+   "bones": [
+    {
+     "name": "root",
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "name": "body",
+     "parent": "root",
+     "pivot": [
+      0.0,
+      7.0,
+      0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -2.5,
+        5.0,
+        -4.0
+       ],
+       "size": [
+        5.0,
+        4.0,
+        8.0
+       ],
+       "uv": [
+        0,
+        19
+       ]
+      }
+     ]
+    },
+    {
+     "name": "leftEar",
+     "parent": "body",
+     "pivot": [
+      2.0,
+      8.0,
+      -2.0
+     ],
+     "rotation": [
+      39.9982,
+      -37.5001,
+      -57.502
+     ],
+     "cubes": [
+      {
+       "origin": [
+        0.0,
+        8.0,
+        -2.0
+       ],
+       "size": [
+        4.0,
+        5.0,
+        0.01
+       ],
+       "uv": [
+        0,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "rightEar",
+     "parent": "body",
+     "pivot": [
+      -2.0,
+      8.0,
+      -2.0
+     ],
+     "rotation": [
+      39.9982,
+      37.5001,
+      57.502
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -4.0,
+        8.0,
+        -2.0
+       ],
+       "size": [
+        4.0,
+        5.0,
+        0.01
+       ],
+       "uv": [
+        0,
+        0
+       ],
+       "mirror": true
+      }
+     ]
+    },
+    {
+     "name": "leftArm",
+     "parent": "body",
+     "pivot": [
+      1.0,
+      5.0,
+      -2.0
+     ],
+     "rotation": [
+      -75.0002,
+      0.0,
+      -0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        0.5,
+        3.0,
+        -2.0
+       ],
+       "size": [
+        1.0,
+        2.0,
+        0.01
+       ],
+       "uv": [
+        0,
+        6
+       ]
+      }
+     ]
+    },
+    {
+     "name": "rightArm",
+     "parent": "body",
+     "pivot": [
+      -1.0,
+      5.0,
+      -2.0
+     ],
+     "rotation": [
+      -75.0002,
+      0.0,
+      -0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -1.5,
+        3.0,
+        -2.0
+       ],
+       "size": [
+        1.0,
+        2.0,
+        0.01
+       ],
+       "uv": [
+        0,
+        6
+       ],
+       "mirror": true
+      }
+     ]
+    },
+    {
+     "name": "tail",
+     "parent": "body",
+     "pivot": [
+      0.0,
+      6.0,
+      4.0
+     ],
+     "rotation": [
+      20.002,
+      0.0,
+      -0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -1.5,
+        6.0,
+        4.0
+       ],
+       "size": [
+        3.0,
+        6.0,
+        12.0
+       ],
+       "uv": [
+        0,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "legs",
+     "parent": "body",
+     "pivot": [
+      0.0,
+      5.1,
+      2.8
+     ],
+     "rotation": [
+      -30.0001,
+      0.0,
+      -0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -2.0,
+        2.1,
+        -2.2
+       ],
+       "size": [
+        4.0,
+        3.0,
+        5.0
+       ],
+       "uv": [
+        19,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "feet",
+     "parent": "legs",
+     "pivot": [
+      0.0,
+      2.1,
+      -2.2
+     ],
+     "rotation": [
+      30.0001,
+      0.0,
+      -0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -2.0,
+        2.09,
+        -4.2
+       ],
+       "size": [
+        4.0,
+        0.01,
+        2.0
+       ],
+       "uv": [
+        19,
+        9
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

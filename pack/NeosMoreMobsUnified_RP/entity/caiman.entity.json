@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:caiman",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/caiman"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.caiman"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.caiman.idle",
+        "walk": "animation.alexsmobs.caiman.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "move": "controller.animation.alexsmobs.ground"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#5A6B4A",
+        "overlay_color": "#2F3A25"
+      }
+    }
+  }
+}

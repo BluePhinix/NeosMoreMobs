@@ -1,0 +1,37 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:underminer",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/underminer"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.underminer"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.underminer.idle",
+        "walk": "animation.alexsmobs.underminer.idle",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "move": "controller.animation.alexsmobs.ground"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ],
+        "scale": "0.925"
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#92A7DC",
+        "overlay_color": "#566BA0"
+      }
+    }
+  }
+}

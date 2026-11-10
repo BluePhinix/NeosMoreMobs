@@ -1,0 +1,37 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:rain_frog",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/rain_frog"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.rain_frog"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.rain_frog.idle",
+        "walk": "animation.alexsmobs.rain_frog.idle",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "move": "controller.animation.alexsmobs.ground"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ],
+        "scale": "0.9"
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#B09E89",
+        "overlay_color": "#74624D"
+      }
+    }
+  }
+}

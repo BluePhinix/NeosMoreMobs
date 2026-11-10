@@ -1,0 +1,37 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:gazelle",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/gazelle"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.gazelle"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.gazelle.idle",
+        "walk": "animation.alexsmobs.gazelle.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "move": "controller.animation.alexsmobs.ground"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ],
+        "scale": "0.8"
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#C99A5B",
+        "overlay_color": "#F0E0C0"
+      }
+    }
+  }
+}

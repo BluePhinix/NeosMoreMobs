@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:laviathan",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/laviathan"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.laviathan"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.laviathan.idle",
+        "walk": "animation.alexsmobs.laviathan.idle",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "move": "controller.animation.alexsmobs.ground"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#79483A",
+        "overlay_color": "#3D0C00"
+      }
+    }
+  }
+}

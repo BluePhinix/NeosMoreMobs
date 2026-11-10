@@ -1,0 +1,76 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Neo's More Mobs + Alex's Mobs",
+    "description": "100 mobs in one pack: the Alex's Mobs 1.22.9 Bedrock port plus Neo's original mobs. Duplicates removed. Includes graveyard structures where Forgotten Souls spawn, Miner Zombies and the Void Dealer trader.",
+    "uuid": "08ea1f24-e2b2-5799-b4ae-aea7a21d4456",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      10
+    ],
+    "license": "LGPL-3.0-or-later (Alex's Mobs port); original assets MIT (code/data) + CC BY 4.0 (art); third-party models CC BY 4.0, bear CC BY-NC 4.0 - see LICENSE.txt"
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "62d63bab-ca4a-502e-a834-aef30f3885fb",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "3d80f7dd-9bde-5fd5-9503-4185c3f40da9",
+      "entry": "scripts/main.js",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "111d4c0b-65a9-5663-b0fd-6af67f38a8db",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.0.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "Neo"
+    ],
+    "credits": [
+      "Alex's Mobs by AlexModGuy and contributors, LGPL-3.0",
+      "Citadel by AlexModGuy and contributors",
+      "Minecraft GrizzlyBear by ContinuedOak, CC BY-NC 4.0",
+      "Elephant from alex's mobs by mrhurr2859, CC BY 4.0",
+      "bison from alex's mobs by mrhurr2859, CC BY 4.0",
+      "The scorpion girl by Bada, CC BY 4.0",
+      "Blockbench Whale (free) by Treeminator, CC BY 4.0",
+      "Minecraft Deer by Catnim, CC BY 4.0",
+      "blue comb jelly from Alexs mobs by mrhurr2859, CC BY 4.0",
+      "Minecraft Australia Edition Models by Whateverdata55, CC BY 4.0"
+    ]
+  }
+}

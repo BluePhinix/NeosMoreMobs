@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:comb_jelly",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/comb_jelly"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.comb_jelly"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.comb_jelly.idle",
+        "walk": "animation.alexsmobs.comb_jelly.idle",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "move": "controller.animation.alexsmobs.ground"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#C2D4F5",
+        "overlay_color": "#8698B9"
+      }
+    }
+  }
+}

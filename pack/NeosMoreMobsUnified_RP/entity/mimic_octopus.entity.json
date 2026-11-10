@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:mimic_octopus",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/mimic_octopus"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.mimic_octopus"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.mimic_octopus.idle",
+        "walk": "animation.alexsmobs.mimic_octopus.idle",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "move": "controller.animation.alexsmobs.ground"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#89706A",
+        "overlay_color": "#4D342E"
+      }
+    }
+  }
+}

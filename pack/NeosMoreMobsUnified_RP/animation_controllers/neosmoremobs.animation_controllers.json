@@ -1,0 +1,127 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.neosmoremobs.locomotion": {
+      "initial_state": "idle",
+      "states": {
+        "idle": {
+          "blend_transition": 0.3,
+          "animations": [
+            "idle"
+          ],
+          "transitions": [
+            {
+              "walk": "query.modified_move_speed > 0.05"
+            }
+          ]
+        },
+        "walk": {
+          "blend_transition": 0.25,
+          "animations": [
+            "walk"
+          ],
+          "transitions": [
+            {
+              "run": "query.modified_move_speed > 0.55"
+            },
+            {
+              "idle": "query.modified_move_speed <= 0.05"
+            }
+          ]
+        },
+        "run": {
+          "blend_transition": 0.25,
+          "animations": [
+            "run"
+          ],
+          "transitions": [
+            {
+              "walk": "query.modified_move_speed <= 0.55"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.neosmoremobs.locomotion_swim": {
+      "initial_state": "idle",
+      "states": {
+        "idle": {
+          "blend_transition": 0.3,
+          "animations": [
+            "idle"
+          ],
+          "transitions": [
+            {
+              "swim": "query.is_in_water"
+            },
+            {
+              "walk": "query.modified_move_speed > 0.05"
+            }
+          ]
+        },
+        "walk": {
+          "blend_transition": 0.25,
+          "animations": [
+            "walk"
+          ],
+          "transitions": [
+            {
+              "swim": "query.is_in_water"
+            },
+            {
+              "run": "query.modified_move_speed > 0.55"
+            },
+            {
+              "idle": "query.modified_move_speed <= 0.05"
+            }
+          ]
+        },
+        "run": {
+          "blend_transition": 0.25,
+          "animations": [
+            "run"
+          ],
+          "transitions": [
+            {
+              "walk": "query.modified_move_speed <= 0.55"
+            }
+          ]
+        },
+        "swim": {
+          "blend_transition": 0.3,
+          "animations": [
+            "swim"
+          ],
+          "transitions": [
+            {
+              "idle": "query.is_in_water == 0"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.neosmoremobs.attack": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "attack": "query.is_delayed_attacking == 1"
+            }
+          ]
+        },
+        "attack": {
+          "blend_transition": 0.08,
+          "animations": [
+            "attack"
+          ],
+          "transitions": [
+            {
+              "default": "query.is_delayed_attacking == 0"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

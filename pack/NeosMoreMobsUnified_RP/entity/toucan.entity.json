@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:toucan",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/toucan"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.toucan"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.toucan.idle",
+        "walk": "animation.alexsmobs.toucan.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "fly": "animation.alexsmobs.toucan.fly",
+        "move": "controller.animation.alexsmobs.flyer"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ],
+        "scale": "0.9"
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#1C1C1C",
+        "overlay_color": "#F26B1D"
+      }
+    }
+  }
+}

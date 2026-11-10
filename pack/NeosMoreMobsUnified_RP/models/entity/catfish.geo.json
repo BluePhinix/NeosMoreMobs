@@ -1,0 +1,304 @@
+{
+ "format_version": "1.12.0",
+ "minecraft:geometry": [
+  {
+   "description": {
+    "identifier": "geometry.alexsmobs.catfish",
+    "texture_width": 64,
+    "texture_height": 64,
+    "visible_bounds_width": 2.6,
+    "visible_bounds_height": 1.0875,
+    "visible_bounds_offset": [
+     0,
+     0.2812,
+     0
+    ]
+   },
+   "bones": [
+    {
+     "name": "root",
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "name": "body",
+     "parent": "root",
+     "pivot": [
+      0.0,
+      3.0,
+      0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -4.0,
+        0.0,
+        -8.0
+       ],
+       "size": [
+        8.0,
+        6.0,
+        14.0
+       ],
+       "uv": [
+        0,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "left_barbel",
+     "parent": "body",
+     "pivot": [
+      4.0,
+      2.0,
+      -6.0
+     ],
+     "rotation": [
+      -0.0,
+      -35.002,
+      -0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        4.0,
+        -1.0,
+        -6.0
+       ],
+       "size": [
+        6.0,
+        3.0,
+        0.01
+       ],
+       "uv": [
+        0,
+        10
+       ]
+      }
+     ]
+    },
+    {
+     "name": "right_barbel",
+     "parent": "body",
+     "pivot": [
+      -4.0,
+      2.0,
+      -6.0
+     ],
+     "rotation": [
+      -0.0,
+      35.002,
+      -0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -10.0,
+        -1.0,
+        -6.0
+       ],
+       "size": [
+        6.0,
+        3.0,
+        0.01
+       ],
+       "uv": [
+        0,
+        10
+       ],
+       "mirror": true
+      }
+     ]
+    },
+    {
+     "name": "dorsal_fin",
+     "parent": "body",
+     "pivot": [
+      0.0,
+      6.0,
+      -2.0
+     ],
+     "rotation": [
+      7.5,
+      0.0,
+      -0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        0.0,
+        6.0,
+        -2.0
+       ],
+       "size": [
+        0.01,
+        4.0,
+        5.0
+       ],
+       "uv": [
+        0,
+        21
+       ]
+      }
+     ]
+    },
+    {
+     "name": "left_fin",
+     "parent": "body",
+     "pivot": [
+      4.0,
+      1.0,
+      -3.0
+     ],
+     "rotation": [
+      -0.0,
+      0.0,
+      52.5001
+     ],
+     "cubes": [
+      {
+       "origin": [
+        4.0,
+        -1.0,
+        -4.0
+       ],
+       "size": [
+        0.01,
+        2.0,
+        4.0
+       ],
+       "uv": [
+        19,
+        21
+       ]
+      }
+     ]
+    },
+    {
+     "name": "right_fin",
+     "parent": "body",
+     "pivot": [
+      -4.0,
+      1.0,
+      -3.0
+     ],
+     "rotation": [
+      -0.0,
+      0.0,
+      -52.5001
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -4.0,
+        -1.0,
+        -4.0
+       ],
+       "size": [
+        0.01,
+        2.0,
+        4.0
+       ],
+       "uv": [
+        19,
+        21
+       ],
+       "mirror": true
+      }
+     ]
+    },
+    {
+     "name": "tail",
+     "parent": "body",
+     "pivot": [
+      0.0,
+      3.0,
+      7.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -2.0,
+        1.0,
+        6.0
+       ],
+       "size": [
+        4.0,
+        5.0,
+        10.0
+       ],
+       "uv": [
+        0,
+        21
+       ]
+      },
+      {
+       "origin": [
+        0.0,
+        6.0,
+        9.0
+       ],
+       "size": [
+        0.01,
+        1.0,
+        2.0
+       ],
+       "uv": [
+        0,
+        0
+       ]
+      },
+      {
+       "origin": [
+        0.0,
+        -1.0,
+        6.0
+       ],
+       "size": [
+        0.01,
+        2.0,
+        6.0
+       ],
+       "uv": [
+        0,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "tail_fin",
+     "parent": "tail",
+     "pivot": [
+      0.0,
+      1.0,
+      16.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        0.0,
+        -1.0,
+        14.0
+       ],
+       "size": [
+        0.01,
+        9.0,
+        10.0
+       ],
+       "uv": [
+        19,
+        27
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

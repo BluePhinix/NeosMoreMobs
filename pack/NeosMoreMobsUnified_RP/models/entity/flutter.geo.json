@@ -1,0 +1,368 @@
+{
+ "format_version": "1.12.0",
+ "minecraft:geometry": [
+  {
+   "description": {
+    "identifier": "geometry.alexsmobs.flutter",
+    "texture_width": 64,
+    "texture_height": 64,
+    "visible_bounds_width": 1.225,
+    "visible_bounds_height": 1.2688,
+    "visible_bounds_offset": [
+     0,
+     0.4344,
+     0
+    ]
+   },
+   "bones": [
+    {
+     "name": "root",
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "name": "body",
+     "parent": "root",
+     "pivot": [
+      0.0,
+      3.9,
+      0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -3.5,
+        1.9,
+        -3.5
+       ],
+       "size": [
+        7.0,
+        5.0,
+        7.0
+       ],
+       "uv": [
+        0,
+        13
+       ]
+      },
+      {
+       "origin": [
+        -3.5,
+        1.9,
+        -3.5
+       ],
+       "size": [
+        7.0,
+        5.0,
+        7.0
+       ],
+       "uv": [
+        0,
+        0
+       ],
+       "inflate": -0.2
+      }
+     ]
+    },
+    {
+     "name": "eyes",
+     "parent": "body",
+     "pivot": [
+      0.0,
+      4.9,
+      -3.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -1.5,
+        4.4,
+        -3.0
+       ],
+       "size": [
+        3.0,
+        1.0,
+        0.01
+       ],
+       "uv": [
+        23,
+        30
+       ]
+      }
+     ]
+    },
+    {
+     "name": "petals",
+     "parent": "body",
+     "pivot": [
+      0.0,
+      6.9,
+      0.0
+     ]
+    },
+    {
+     "name": "front_petal",
+     "parent": "petals",
+     "pivot": [
+      0.0,
+      6.9,
+      -1.5
+     ],
+     "rotation": [
+      -67.5002,
+      0.0,
+      -0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -3.5,
+        6.9,
+        -1.5
+       ],
+       "size": [
+        7.0,
+        7.0,
+        0.01
+       ],
+       "uv": [
+        0,
+        26
+       ]
+      }
+     ]
+    },
+    {
+     "name": "left_petal",
+     "parent": "petals",
+     "pivot": [
+      1.5,
+      6.9,
+      0.0
+     ],
+     "rotation": [
+      -67.5002,
+      -90.0002,
+      -0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -2.0,
+        6.9,
+        0.0
+       ],
+       "size": [
+        7.0,
+        7.0,
+        0.01
+       ],
+       "uv": [
+        0,
+        26
+       ]
+      }
+     ]
+    },
+    {
+     "name": "right_petal",
+     "parent": "petals",
+     "pivot": [
+      -1.5,
+      6.9,
+      0.0
+     ],
+     "rotation": [
+      -67.5002,
+      90.0002,
+      -0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -5.0,
+        6.9,
+        0.0
+       ],
+       "size": [
+        7.0,
+        7.0,
+        0.01
+       ],
+       "uv": [
+        0,
+        26
+       ],
+       "mirror": true
+      }
+     ]
+    },
+    {
+     "name": "back_petal",
+     "parent": "petals",
+     "pivot": [
+      0.0,
+      6.9,
+      1.5
+     ],
+     "rotation": [
+      -67.5002,
+      180.0004,
+      -0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -3.5,
+        6.9,
+        1.5
+       ],
+       "size": [
+        7.0,
+        7.0,
+        0.01
+       ],
+       "uv": [
+        0,
+        26
+       ]
+      }
+     ]
+    },
+    {
+     "name": "left_arm",
+     "parent": "body",
+     "pivot": [
+      3.0,
+      2.0,
+      -3.0
+     ],
+     "rotation": [
+      -0.0,
+      -42.502,
+      -0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        2.5,
+        0.0,
+        -5.0
+       ],
+       "size": [
+        1.0,
+        2.0,
+        2.0
+       ],
+       "uv": [
+        0,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "left_leg",
+     "parent": "body",
+     "pivot": [
+      3.0,
+      2.0,
+      3.0
+     ],
+     "rotation": [
+      180.0004,
+      -42.502,
+      -180.0004
+     ],
+     "cubes": [
+      {
+       "origin": [
+        2.5,
+        0.0,
+        1.0
+       ],
+       "size": [
+        1.0,
+        2.0,
+        2.0
+       ],
+       "uv": [
+        0,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "right_leg",
+     "parent": "body",
+     "pivot": [
+      -3.0,
+      2.0,
+      3.0
+     ],
+     "rotation": [
+      180.0004,
+      42.502,
+      180.0004
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -3.5,
+        0.0,
+        1.0
+       ],
+       "size": [
+        1.0,
+        2.0,
+        2.0
+       ],
+       "uv": [
+        0,
+        0
+       ],
+       "mirror": true
+      }
+     ]
+    },
+    {
+     "name": "right_arm",
+     "parent": "body",
+     "pivot": [
+      -3.0,
+      2.0,
+      -3.0
+     ],
+     "rotation": [
+      -0.0,
+      42.502,
+      -0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -3.5,
+        0.0,
+        -5.0
+       ],
+       "size": [
+        1.0,
+        2.0,
+        2.0
+       ],
+       "uv": [
+        0,
+        0
+       ],
+       "mirror": true
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

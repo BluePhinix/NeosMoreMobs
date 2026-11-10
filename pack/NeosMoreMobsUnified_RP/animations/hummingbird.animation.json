@@ -1,0 +1,123 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.alexsmobs.hummingbird.walk": {
+   "loop": true,
+   "anim_time_update": "query.modified_distance_moved",
+   "bones": {
+    "body": {
+     "position": [
+      0.0,
+      "-math.abs(math.sin(q.anim_time * 200)) * -0.6",
+      0.0
+     ]
+    },
+    "legL": {
+     "rotation": [
+      "15.0 + math.abs(math.sin(q.anim_time * 200)) * -25",
+      0,
+      0
+     ]
+    },
+    "legR": {
+     "rotation": [
+      "15.0 + math.abs(math.sin(q.anim_time * 200)) * -25",
+      0,
+      0
+     ]
+    },
+    "tail": {
+     "rotation": [
+      "27.502 + math.cos(q.anim_time * 200) * 6",
+      0,
+      0
+     ]
+    }
+   }
+  },
+  "animation.alexsmobs.hummingbird.fly": {
+   "loop": true,
+   "bones": {
+    "body": {
+     "rotation": [
+      "-15.0 + -(30.000 + math.cos(q.anim_time * 343.8 + 0.00) * 2.292 + 5.730)",
+      "0.000",
+      "-(0.000)"
+     ],
+     "position": [
+      0.0,
+      "-(-math.abs(math.sin(q.anim_time * 343.8)) * 0.240)",
+      0.0
+     ]
+    },
+    "head": {
+     "rotation": [
+      "12.5019 + -(-30.000 + math.cos(q.anim_time * 343.8 + 114.59) * -2.292 + 5.730)",
+      "0.000",
+      "-(0.000)"
+     ],
+     "position": [
+      "0.000",
+      "-(-0.500)",
+      "-1.000"
+     ]
+    },
+    "wingL": {
+     "rotation": [
+      "-(15.000 + math.cos(q.anim_time * 2635.6 + 0.00) * 45.837 + -22.918)",
+      "55.000",
+      "-(-100.000 + math.cos(q.anim_time * 2635.6 + 0.00) * 105.424)"
+     ],
+     "position": [
+      "0.000",
+      "-(1.000)",
+      "0.000"
+     ]
+    },
+    "wingR": {
+     "rotation": [
+      "-(15.000 + math.cos(q.anim_time * 2635.6 + 0.00) * 45.837 + -22.918)",
+      "-55.000",
+      "-(100.000 + math.cos(q.anim_time * 2635.6 + 0.00) * -105.424)"
+     ],
+     "position": [
+      "0.000",
+      "-(1.000)",
+      "0.000"
+     ]
+    },
+    "tail": {
+     "rotation": [
+      "27.502 + -(-45.000 + math.cos(q.anim_time * 343.8 + 57.30) * 4.584 + 5.730)",
+      "0.000",
+      "-(0.000)"
+     ]
+    },
+    "legL": {
+     "rotation": [
+      "15.0 + -(-45.000)",
+      "0.000",
+      "-(0.000)"
+     ],
+     "position": [
+      "0.000",
+      "-(-0.400 + math.sin(q.anim_time * 343.8) * -0.160 - -0.160)",
+      "0.000"
+     ]
+    },
+    "legR": {
+     "rotation": [
+      "15.0 + -(-45.000)",
+      "0.000",
+      "-(0.000)"
+     ],
+     "position": [
+      "0.000",
+      "-(-0.400 + math.sin(q.anim_time * 343.8) * -0.160 - -0.160)",
+      "0.000"
+     ]
+    }
+   }
+  }
+ }
+}

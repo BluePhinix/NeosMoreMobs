@@ -1,0 +1,60 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.alexsmobs.warped_toad.walk": {
+   "loop": true,
+   "anim_time_update": "query.modified_distance_moved",
+   "bones": {
+    "right_leg": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 45.8 + -143.24) * 28.648 + 5.730)",
+      "math.cos(q.anim_time * 15.3 + -143.24) * 51.566 + -17.189",
+      -0.0
+     ]
+    },
+    "left_leg": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 45.8 + -143.24) * -28.648 + -5.730)",
+      "math.cos(q.anim_time * 15.3 + -143.24) * -51.566 + -17.189",
+      -0.0
+     ]
+    },
+    "right_foot": {
+     "rotation": [
+      -0.0,
+      0.0,
+      "-(math.cos(q.anim_time * 15.3 + -57.30) * 51.566 + -17.189)"
+     ]
+    },
+    "left_foot": {
+     "rotation": [
+      -0.0,
+      0.0,
+      "-(math.cos(q.anim_time * 15.3 + -57.30) * -51.566 + -17.189)"
+     ]
+    },
+    "right_arm": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 45.8 + -143.24) * -28.648 + 17.189)",
+      "math.cos(q.anim_time * 15.3 + -143.24) * 51.566 + 17.189",
+      "-(math.cos(q.anim_time * 15.3 + -143.24) * 51.566 + -5.730)"
+     ]
+    },
+    "left_arm": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 45.8 + -143.24) * 28.648 + -17.189)",
+      "math.cos(q.anim_time * 15.3 + -143.24) * -51.566 + 17.189",
+      "-(math.cos(q.anim_time * 15.3 + -143.24) * -51.566 + -5.730)"
+     ]
+    },
+    "body": {
+     "rotation": [
+      -0.0,
+      "math.cos(q.anim_time * 15.3 + 0.00) * 5.157 + math.cos(q.anim_time * 45.8 + 57.30) * 10.027",
+      "-(math.cos(q.anim_time * 45.8 + 0.00) * 10.027)"
+     ]
+    }
+   }
+  }
+ }
+}

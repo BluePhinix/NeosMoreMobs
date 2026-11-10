@@ -1,0 +1,48 @@
+{
+ "format_version": "1.21.40",
+ "minecraft:item": {
+  "description": {
+   "identifier": "neosmoremobs:miner_helmet",
+   "menu_category": {
+    "category": "equipment"
+   }
+  },
+  "components": {
+   "minecraft:icon": {
+    "textures": {
+     "default": "neosmoremobs_miner_helmet"
+    }
+   },
+   "minecraft:display_name": {
+    "value": "item.neosmoremobs:miner_helmet.name"
+   },
+   "minecraft:max_stack_size": 1,
+   "minecraft:wearable": {
+    "slot": "slot.armor.head",
+    "protection": 2
+   },
+   "minecraft:durability": {
+    "max_durability": 275
+   },
+   "minecraft:enchantable": {
+    "slot": "armor_head",
+    "value": 10
+   },
+   "minecraft:repairable": {
+    "repair_items": [
+     {
+      "items": [
+       "minecraft:iron_ingot"
+      ],
+      "repair_amount": 90
+     }
+    ]
+   },
+   "minecraft:tags": {
+    "tags": [
+     "minecraft:is_armor"
+    ]
+   }
+  }
+ }
+}

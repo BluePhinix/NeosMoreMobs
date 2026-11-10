@@ -1,0 +1,99 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.alexsmobs.crimson_mosquito.idle": {
+   "loop": true,
+   "bones": {
+    "antennaR": {
+     "rotation": [
+      "-69.9982 + -(math.cos(q.anim_time * 573.0 + 0.00) * 4.297 + 5.730)",
+      27.502,
+      2.4981
+     ]
+    },
+    "antennaL": {
+     "rotation": [
+      "-69.9982 + -(math.cos(q.anim_time * 573.0 + 0.00) * 4.297 + 5.730)",
+      -27.502,
+      -2.4981
+     ]
+    },
+    "wingL": {
+     "rotation": [
+      -0.0,
+      0.0,
+      "-(math.cos(q.anim_time * 1890.8 + 0.00) * -28.648 + 11.459)"
+     ]
+    },
+    "wingR": {
+     "rotation": [
+      -0.0,
+      0.0,
+      "-(math.cos(q.anim_time * 1890.8 + 0.00) * 28.648 + 11.459)"
+     ]
+    }
+   }
+  },
+  "animation.alexsmobs.crimson_mosquito.fly": {
+   "loop": true,
+   "bones": {
+    "body": {
+     "position": [
+      "0.000",
+      "-(-10.000 + math.sin(q.anim_time * 286.5) * 2.500 - 2.500)",
+      "0.000"
+     ]
+    },
+    "legL1": {
+     "rotation": [
+      "-(0.000)",
+      "30.0001 + -30.000",
+      "-(60.000 + math.cos(q.anim_time * 573.0 + 57.30) * -14.324 + 5.730)"
+     ]
+    },
+    "legR1": {
+     "rotation": [
+      "-(0.000)",
+      "-30.0001 + 30.000",
+      "-(-60.000 + math.cos(q.anim_time * 573.0 + 57.30) * 14.324 + 5.730)"
+     ]
+    },
+    "legL2": {
+     "rotation": [
+      "-(0.000)",
+      "-20.000",
+      "-(60.000 + math.cos(q.anim_time * 573.0 + 114.59) * -14.324 + 5.730)"
+     ]
+    },
+    "legR2": {
+     "rotation": [
+      "-(0.000)",
+      "20.000",
+      "-(-60.000 + math.cos(q.anim_time * 573.0 + 114.59) * 14.324 + 5.730)"
+     ]
+    },
+    "legL3": {
+     "rotation": [
+      "-(0.000)",
+      "-50.002 + -5.000",
+      "-(60.000 + math.cos(q.anim_time * 573.0 + 114.59) * -14.324 + 5.730)"
+     ]
+    },
+    "legR3": {
+     "rotation": [
+      "-(0.000)",
+      "50.002 + 5.000",
+      "-(-60.000 + math.cos(q.anim_time * 573.0 + 114.59) * 14.324 + 5.730)"
+     ]
+    },
+    "tail": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 573.0 + 0.00) * 4.297 + -5.730)",
+      0.0,
+      -0.0
+     ]
+    }
+   }
+  }
+ }
+}

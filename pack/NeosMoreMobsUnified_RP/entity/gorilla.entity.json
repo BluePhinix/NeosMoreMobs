@@ -1,0 +1,39 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:gorilla",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/gorilla"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.gorilla"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.gorilla.idle",
+        "walk": "animation.alexsmobs.gorilla.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "attack": "animation.alexsmobs.gorilla.attack",
+        "move": "controller.animation.alexsmobs.ground",
+        "attack_controller": "controller.animation.alexsmobs.attack"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move",
+          "attack_controller"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#3A3A3A",
+        "overlay_color": "#1E1E1E"
+      }
+    }
+  }
+}

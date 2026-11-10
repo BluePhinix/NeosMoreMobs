@@ -1,0 +1,39 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:leafcutter_ant",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/leafcutter_ant"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.leafcutter_ant"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.leafcutter_ant.idle",
+        "walk": "animation.alexsmobs.leafcutter_ant.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "attack": "animation.alexsmobs.leafcutter_ant.bite",
+        "move": "controller.animation.alexsmobs.ground",
+        "attack_controller": "controller.animation.alexsmobs.attack"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move",
+          "attack_controller"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#6B4A2B",
+        "overlay_color": "#2F1D12"
+      }
+    }
+  }
+}

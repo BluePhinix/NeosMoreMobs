@@ -1,0 +1,31 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.neosmoremobs.forgotten_soul.flying": {
+      "loop": true,
+      "animation_length": 2,
+      "bones": {
+        "root": {
+          "position": [ 0, "math.sin(query.life_time * 180) * 0.4", 0 ],
+          "rotation": [ 0, 0, "math.sin(query.life_time * 120) * 2" ]
+        },
+        "hands": {
+          "rotation": [ "math.sin(query.life_time * 180) * 7", 0, 0 ]
+        }
+      }
+    },
+    "animation.neosmoremobs.forgotten_soul.attack": {
+      "loop": true,
+      "animation_length": 0.5,
+      "bones": {
+        "hands": {
+          "rotation": {
+            "0": [ 0, 0, 0 ],
+            "0.25": [ 85, 0, 0 ],
+            "0.5": [ 0, 0, 0 ]
+          }
+        }
+      }
+    }
+  }
+}

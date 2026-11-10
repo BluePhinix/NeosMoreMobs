@@ -1,0 +1,17 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.alexsmobs.alligator_snapping_turtle.idle": {
+   "loop": true,
+   "bones": {
+    "tail": {
+     "rotation": [
+      -0.0,
+      "math.cos(q.anim_time * 57.3 + 171.89) * 16.473",
+      -0.0
+     ]
+    }
+   }
+  }
+ }
+}

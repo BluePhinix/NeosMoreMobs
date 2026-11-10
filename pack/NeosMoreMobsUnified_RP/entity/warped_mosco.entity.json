@@ -1,0 +1,40 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:warped_mosco",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/warped_mosco"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.warped_mosco"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.warped_mosco.idle",
+        "walk": "animation.alexsmobs.warped_mosco.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "attack": "animation.alexsmobs.warped_mosco.punch_r",
+        "fly": "animation.alexsmobs.warped_mosco.fly",
+        "move": "controller.animation.alexsmobs.flyer",
+        "attack_controller": "controller.animation.alexsmobs.attack"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move",
+          "attack_controller"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#384B64",
+        "overlay_color": "#000F28"
+      }
+    }
+  }
+}

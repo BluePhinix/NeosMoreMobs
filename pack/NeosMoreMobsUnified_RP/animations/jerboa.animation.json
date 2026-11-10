@@ -1,0 +1,112 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.alexsmobs.jerboa.walk": {
+   "loop": true,
+   "anim_time_update": "query.modified_distance_moved",
+   "bones": {
+    "body": {
+     "rotation": [
+      "math.cos(q.anim_time * 152.8) * -3",
+      0,
+      0
+     ],
+     "position": [
+      0.0,
+      "-math.abs(math.sin(q.anim_time * 152.8)) * -1.1",
+      0.0
+     ]
+    },
+    "legs": {
+     "rotation": [
+      "-30.0001 + math.abs(math.sin(q.anim_time * 152.8)) * -30",
+      0,
+      0
+     ]
+    },
+    "feet": {
+     "rotation": [
+      "30.0001 + math.abs(math.sin(q.anim_time * 152.8)) * 34",
+      0,
+      0
+     ]
+    },
+    "tail": {
+     "rotation": [
+      "20.002 + math.cos(q.anim_time * 152.8 + 30) * 6",
+      "math.sin(q.anim_time * 76.4) * 10",
+      0
+     ]
+    },
+    "leftArm": {
+     "rotation": [
+      "-75.0002 + math.abs(math.sin(q.anim_time * 152.8)) * -16",
+      0,
+      0
+     ]
+    },
+    "rightArm": {
+     "rotation": [
+      "-75.0002 + math.abs(math.sin(q.anim_time * 152.8)) * -16",
+      0,
+      0
+     ]
+    },
+    "leftEar": {
+     "rotation": [
+      "39.9982 + math.cos(q.anim_time * 152.8) * 8",
+      -37.5001,
+      -57.502
+     ]
+    },
+    "rightEar": {
+     "rotation": [
+      "39.9982 + math.cos(q.anim_time * 152.8) * 8",
+      37.5001,
+      57.502
+     ]
+    }
+   }
+  },
+  "animation.alexsmobs.jerboa.idle": {
+   "loop": true,
+   "bones": {
+    "leftArm": {
+     "rotation": [
+      "-75.0002 + -(math.cos(q.anim_time * 114.6 + 114.59) * -11.459 + 17.189)",
+      0.0,
+      -0.0
+     ]
+    },
+    "rightArm": {
+     "rotation": [
+      "-75.0002 + -(math.cos(q.anim_time * 114.6 + 114.59) * -11.459 + 17.189)",
+      0.0,
+      -0.0
+     ]
+    },
+    "tail": {
+     "rotation": [
+      "20.002 + -(math.cos(q.anim_time * 114.6 + 57.30) * -5.730 + -2.865)",
+      0.0,
+      -0.0
+     ]
+    },
+    "leftEar": {
+     "rotation": [
+      "39.9982 + -(math.cos(q.anim_time * 114.6 + 0.00) * 5.730)",
+      -37.5001,
+      -57.502
+     ]
+    },
+    "rightEar": {
+     "rotation": [
+      "39.9982 + -(math.cos(q.anim_time * 114.6 + 0.00) * 5.730)",
+      37.5001,
+      57.502
+     ]
+    }
+   }
+  }
+ }
+}

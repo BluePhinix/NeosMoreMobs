@@ -1,0 +1,37 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:farseer",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/farseer"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.farseer"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.farseer.idle",
+        "walk": "animation.alexsmobs.farseer.idle",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "fly": "animation.alexsmobs.farseer.fly",
+        "move": "controller.animation.alexsmobs.flyer"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#464A57",
+        "overlay_color": "#0A0E1B"
+      }
+    }
+  }
+}

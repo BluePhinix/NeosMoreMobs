@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:mungus",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/mungus"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.mungus"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.mungus.idle",
+        "walk": "animation.alexsmobs.mungus.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "move": "controller.animation.alexsmobs.ground"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#7B6194",
+        "overlay_color": "#3F2558"
+      }
+    }
+  }
+}

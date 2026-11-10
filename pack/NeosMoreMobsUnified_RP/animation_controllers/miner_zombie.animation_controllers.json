@@ -1,0 +1,28 @@
+{
+ "format_version": "1.10.0",
+ "animation_controllers": {
+  "controller.animation.neosmoremobs.miner_zombie.attack": {
+   "initial_state": "default",
+   "states": {
+    "default": {
+     "transitions": [
+      {
+       "attack": "variable.attack_time >= 0.0"
+      }
+     ]
+    },
+    "attack": {
+     "blend_transition": 0.1,
+     "animations": [
+      "attack"
+     ],
+     "transitions": [
+      {
+       "default": "variable.attack_time < 0.0"
+      }
+     ]
+    }
+   }
+  }
+ }
+}

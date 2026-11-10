@@ -1,0 +1,37 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:banana_slug",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/banana_slug"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.banana_slug"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.banana_slug.idle",
+        "walk": "animation.alexsmobs.banana_slug.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "move": "controller.animation.alexsmobs.ground"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ],
+        "scale": "0.9"
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#EEC25C",
+        "overlay_color": "#B28620"
+      }
+    }
+  }
+}

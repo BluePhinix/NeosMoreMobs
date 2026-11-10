@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:triops",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/triops"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.triops"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.triops.idle",
+        "walk": "animation.alexsmobs.triops.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "move": "controller.animation.alexsmobs.ground"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#725D43",
+        "overlay_color": "#362107"
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.alexsmobs.void_worm.idle": {
+   "loop": true,
+   "bones": {
+    "neck": {
+     "rotation": [
+      0,
+      0,
+      "math.sin(q.anim_time * 60) * 2"
+     ],
+     "position": [
+      0,
+      "math.sin(q.anim_time * 90) * 0.15",
+      0
+     ]
+    }
+   }
+  },
+  "animation.alexsmobs.void_worm.fly": {
+   "loop": true,
+   "bones": {
+    "neck": {
+     "rotation": [
+      0,
+      0,
+      "math.sin(q.anim_time * 60) * 2"
+     ],
+     "position": [
+      0,
+      "math.sin(q.anim_time * 90) * 0.15",
+      0
+     ]
+    }
+   }
+  }
+ }
+}

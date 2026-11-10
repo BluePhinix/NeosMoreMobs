@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "neosmoremobs:giraffe",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/neosmoremobs/giraffe"
+      },
+      "geometry": {
+        "default": "geometry.neosmoremobs.giraffe"
+      },
+      "animations": {
+        "idle": "animation.neosmoremobs.giraffe.idle",
+        "walk": "animation.neosmoremobs.giraffe.walk",
+        "run": "animation.neosmoremobs.giraffe.run",
+        "look_at_target": "animation.common.look_at_target",
+        "move": "controller.animation.neosmoremobs.locomotion"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ],
+        "scale": "0.7"
+      },
+      "render_controllers": [
+        "controller.render.neosmoremobs.giraffe"
+      ],
+      "spawn_egg": {
+        "base_color": "#D8B04A",
+        "overlay_color": "#8B5A2B"
+      }
+    }
+  }
+}

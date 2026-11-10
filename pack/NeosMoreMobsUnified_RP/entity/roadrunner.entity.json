@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:roadrunner",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/roadrunner"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.roadrunner"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.roadrunner.idle",
+        "walk": "animation.alexsmobs.roadrunner.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "move": "controller.animation.alexsmobs.ground"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#8A6B3F",
+        "overlay_color": "#E0C07A"
+      }
+    }
+  }
+}

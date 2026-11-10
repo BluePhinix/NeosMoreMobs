@@ -1,0 +1,37 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:jerboa",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/jerboa"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.jerboa"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.jerboa.idle",
+        "walk": "animation.alexsmobs.jerboa.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "move": "controller.animation.alexsmobs.ground"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ],
+        "scale": "0.8"
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#C2A878",
+        "overlay_color": "#6E5A3B"
+      }
+    }
+  }
+}

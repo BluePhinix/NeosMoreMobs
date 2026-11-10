@@ -1,0 +1,32 @@
+{
+ "format_version": "1.21.0",
+ "minecraft:recipe_shaped": {
+  "description": {
+   "identifier": "neosmoremobs:miner_helmet"
+  },
+  "tags": [
+   "crafting_table"
+  ],
+  "pattern": [
+   "III",
+   "ITI"
+  ],
+  "key": {
+   "I": {
+    "item": "minecraft:iron_ingot"
+   },
+   "T": {
+    "item": "minecraft:torch"
+   }
+  },
+  "unlock": [
+   {
+    "item": "minecraft:iron_ingot"
+   }
+  ],
+  "result": {
+   "item": "neosmoremobs:miner_helmet",
+   "count": 1
+  }
+ }
+}

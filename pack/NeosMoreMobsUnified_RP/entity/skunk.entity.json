@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:skunk",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/skunk"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.skunk"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.skunk.idle",
+        "walk": "animation.alexsmobs.skunk.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "move": "controller.animation.alexsmobs.ground"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#373845",
+        "overlay_color": "#000009"
+      }
+    }
+  }
+}

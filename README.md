@@ -1,2 +1,67 @@
-# NeosMoreMobs
-Neo's More Mobs - 100 mobs for Minecraft Bedrock Edition: the Alex's Mobs 1.22.9 port plus Neo's original mobs. Code and data MIT, original art CC BY 4.0.
+# Neo's More Mobs
+
+**100 mobs for Minecraft Bedrock Edition** - the complete [Alex's Mobs](https://github.com/AlexModGuy/AlexsMobs) 1.22.9 port plus Neo's original mobs, merged into one addon. Duplicates removed, so every mob appears exactly once.
+
+![All 100 mobs](docs/poster-all-mobs.png)
+
+## Download
+
+Grab `pack/NeosMoreMobsUnified.mcaddon` and open it with Minecraft (Bedrock 1.26.10 or newer). Both packs install at once.
+
+Manual install: copy `NeosMoreMobsUnified_BP` into `behavior_packs` and `NeosMoreMobsUnified_RP` into `resource_packs`, then enable both on your world.
+
+## What's inside
+
+- 100 entities with models, textures, animations, spawn rules, loot tables and spawn eggs.
+- Behaviour pack: entities, spawn rules, loot, recipes, features, graveyard structures, trader scripts.
+- Resource pack: Bedrock geometry, animations, animation controllers, render controllers and textures.
+- Spawn eggs for every mob, named in `texts/en_US.lang`.
+
+<details>
+<summary>All 100 mobs</summary>
+
+Alligator Snapping Turtle · Anaconda · Anteater · Bald Eagle · Banana Slug · Bison · Black Bear · Blobfish · Blue Jay · Bone Serpent · Bunfungus · Cachalot Whale · Caiman · Capuchin Monkey · Catfish · Cave Centipede · Cockroach · Comb Jelly · Cosmaw · Cosmic Cod · Crimson Mosquito · Crocodile · Crow · Deer · Devil's Hole Pupfish · Dropbear · Elephant · Emu · Endergrade · Enderiophage · Farseer · Flutter · Fly · Flying Fish · Forgotten Soul · Frilled Shark · Froststalker · Gazelle · Gelada Monkey · Giant Squid · Giraffe · Gorilla · Grizzly Bear · Guster · Hammerhead Shark · Hummingbird · Jerboa · Kangaroo · Komodo Dragon · Laviathan · Leafcutter Ant · Lion · Lioness · Lobster · Maned Wolf · Mantis Shrimp · Mimic Octopus · Mimicube · Miner Zombie · Moose · Mudskipper · Mungus · Orca · Emperor Penguin · Platypus · Potoo · Raccoon · Rain Frog · Rattlesnake · Rhinoceros · Roadrunner · Rocky Roller · Scorpion Girl · Sea Bear · Seagull · Seal · Shoebill · Skelewag · Skreecher · Skunk · Snow Leopard · Soul Vulture · Spectre · Australian Spider · Straddler · Stradpole · Sugar Glider · Sunbird · Tarantula Hawk · Tasmanian Devil · Terrapin · Tiger · Toucan · Triops · Tusklin · Underminer · Void Dealer · Void Worm · Warped Mosco · Warped Toad
+
+</details>
+
+## Repository layout
+
+```
+pack/    the addon - behaviour pack, resource pack and the built .mcaddon
+docs/    posters rendered from the pack's own models
+tools/   Python build and check scripts that assemble the packs
+```
+
+## Building from source
+
+The packs are plain JSON, so they can be edited directly. The `tools/` scripts are what generated them:
+
+- `merge_unified.py` - merges the Alex's Mobs port with Neo's original mobs, drops duplicates and rebuilds the combined license.
+- `build_more_mobs.py`, `build_imported.py`, `build.py` - build the Neo mobs, the imported models and the original pack.
+- `check_unified.py`, `check_addon.py`, `check_biomes.py` - validation gates.
+
+They were written against the original authoring tree and use absolute paths at the top of each file, so point those at your checkout before running.
+
+## License
+
+This project is open source, with third-party work kept under its own license:
+
+| Part | License |
+| --- | --- |
+| Code and data - behaviour JSON, entity JSON, spawn rules, loot, recipes, structures, build scripts | **MIT** |
+| Neo's models, textures and animations | **CC BY 4.0** |
+| Alex's Mobs 1.22.9 / Citadel port | **LGPL-3.0-or-later** |
+| Third-party models (elephant, bison, deer, whale, comb jelly, scorpion girl, Australia set) | **CC BY 4.0** |
+| Grizzly Bear / Black Bear model | **CC BY-NC 4.0** |
+
+Read [LICENSE.txt](LICENSE.txt) for the full grant and [CREDITS.txt](CREDITS.txt) for every third-party author with source links and a list of changes.
+
+**Note:** the Grizzly Bear and Black Bear models are licensed **non-commercial**, so the addon as distributed must not be sold. Neo's own assets can be reused commercially on their own - just remove the bear assets.
+
+## Credits
+
+- [Alex's Mobs](https://github.com/AlexModGuy/AlexsMobs) and [Citadel](https://github.com/AlexModGuy/Citadel) by AlexModGuy and contributors (LGPL-3.0) - the mobs, models, textures and animations this port is built from.
+- ContinuedOak, mrhurr2859, Bada, Treeminator, Catnim and Whateverdata55 for the third-party models listed in [CREDITS.txt](CREDITS.txt).
+- Neo (NeoPhinixMC) - port, original mobs, animations and tooling.
+
+Not affiliated with Mojang or Microsoft.

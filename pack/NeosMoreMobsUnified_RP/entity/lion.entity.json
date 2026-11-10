@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "neosmoremobs:lion",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/neosmoremobs/lion"
+      },
+      "geometry": {
+        "default": "geometry.neosmoremobs.lion"
+      },
+      "animations": {
+        "idle": "animation.neosmoremobs.lion.idle",
+        "walk": "animation.neosmoremobs.lion.walk",
+        "run": "animation.neosmoremobs.lion.run",
+        "look_at_target": "animation.common.look_at_target",
+        "attack": "animation.neosmoremobs.lion.attack",
+        "move": "controller.animation.neosmoremobs.locomotion",
+        "attack_controller": "controller.animation.neosmoremobs.attack"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move",
+          "attack_controller"
+        ],
+        "scale": "0.98"
+      },
+      "render_controllers": [
+        "controller.render.neosmoremobs.lion"
+      ],
+      "spawn_egg": {
+        "base_color": "#D3A45C",
+        "overlay_color": "#6B4428"
+      }
+    }
+  }
+}

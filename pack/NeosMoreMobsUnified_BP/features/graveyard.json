@@ -1,0 +1,36 @@
+{
+ "format_version": "1.13.0",
+ "minecraft:structure_template_feature": {
+  "description": {
+   "identifier": "neosmoremobs:graveyard"
+  },
+  "structure_name": "mystructure:graveyard",
+  "adjustment_radius": 8,
+  "facing_direction": "random",
+  "constraints": {
+   "grounded": {},
+   "unburied": {},
+   "block_intersection": {
+    "block_allowlist": [
+     "minecraft:air",
+     "minecraft:grass_block",
+     "minecraft:dirt",
+     "minecraft:coarse_dirt",
+     "minecraft:podzol",
+     "minecraft:short_grass",
+     "minecraft:tall_grass",
+     "minecraft:fern",
+     "minecraft:large_fern",
+     "minecraft:snow_layer",
+     "minecraft:poppy",
+     "minecraft:dandelion",
+     "minecraft:oxeye_daisy",
+     "minecraft:cornflower",
+     "minecraft:azure_bluet",
+     "minecraft:lily_of_the_valley",
+     "minecraft:soul_soil"
+    ]
+   }
+  }
+ }
+}

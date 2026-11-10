@@ -1,0 +1,40 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:elephant",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/elephant"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.elephant"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.elephant.idle",
+        "walk": "animation.alexsmobs.elephant.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "attack": "animation.alexsmobs.elephant.stomp",
+        "move": "controller.animation.alexsmobs.ground",
+        "attack_controller": "controller.animation.alexsmobs.attack"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move",
+          "attack_controller"
+        ],
+        "scale": "1.1"
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#7F7F7F",
+        "overlay_color": "#D9C7A3"
+      }
+    }
+  }
+}

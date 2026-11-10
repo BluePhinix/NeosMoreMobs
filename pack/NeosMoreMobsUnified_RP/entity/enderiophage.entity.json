@@ -1,0 +1,37 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:enderiophage",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/enderiophage"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.enderiophage"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.enderiophage.idle",
+        "walk": "animation.alexsmobs.enderiophage.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "fly": "animation.alexsmobs.enderiophage.fly",
+        "move": "controller.animation.alexsmobs.flyer"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#72508E",
+        "overlay_color": "#361452"
+      }
+    }
+  }
+}

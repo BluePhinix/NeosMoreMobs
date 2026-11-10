@@ -1,0 +1,72 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.alexsmobs.catfish.walk": {
+   "loop": true,
+   "anim_time_update": "query.modified_distance_moved",
+   "bones": {
+    "left_fin": {
+     "rotation": [
+      -0.0,
+      0.0,
+      "52.5001 + -(math.cos(q.anim_time * 21.0 + 229.18) * 42.972 + -34.377)"
+     ]
+    },
+    "right_fin": {
+     "rotation": [
+      -0.0,
+      0.0,
+      "-52.5001 + -(math.cos(q.anim_time * 21.0 + 229.18) * -42.972 + -34.377)"
+     ]
+    }
+   }
+  },
+  "animation.alexsmobs.catfish.idle": {
+   "loop": true,
+   "bones": {
+    "dorsal_fin": {
+     "rotation": [
+      "7.5 + -(math.cos(q.anim_time * 229.2 + 114.59) * -2.865 + 5.730)",
+      0.0,
+      -0.0
+     ]
+    },
+    "body": {
+     "position": [
+      0.0,
+      "-(math.sin(q.anim_time * 229.2) * 0.250 - 0.250)",
+      0.0
+     ]
+    },
+    "left_fin": {
+     "rotation": [
+      -0.0,
+      0.0,
+      "52.5001 + -(math.cos(q.anim_time * 229.2 + 229.18) * 14.324 + -5.730)"
+     ]
+    },
+    "right_fin": {
+     "rotation": [
+      -0.0,
+      0.0,
+      "-52.5001 + -(math.cos(q.anim_time * 229.2 + 229.18) * -14.324 + -5.730)"
+     ]
+    },
+    "left_barbel": {
+     "rotation": [
+      -0.0,
+      "-35.002 + math.cos(q.anim_time * 229.2 + 114.59) * 14.324 + 5.730",
+      -0.0
+     ]
+    },
+    "right_barbel": {
+     "rotation": [
+      -0.0,
+      "35.002 + math.cos(q.anim_time * 229.2 + 114.59) * -14.324 + 5.730",
+      -0.0
+     ]
+    }
+   }
+  }
+ }
+}

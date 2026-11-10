@@ -1,0 +1,37 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:warped_toad",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/warped_toad"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.warped_toad"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.warped_toad.walk",
+        "walk": "animation.alexsmobs.warped_toad.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "move": "controller.animation.alexsmobs.ground"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ],
+        "scale": "1.25"
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#6A7D71",
+        "overlay_color": "#2E4135"
+      }
+    }
+  }
+}

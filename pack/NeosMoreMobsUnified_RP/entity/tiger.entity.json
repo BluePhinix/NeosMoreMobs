@@ -1,0 +1,39 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:tiger",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/tiger"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.tiger"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.tiger.idle",
+        "walk": "animation.alexsmobs.tiger.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "attack": "animation.alexsmobs.tiger.leap",
+        "move": "controller.animation.alexsmobs.ground",
+        "attack_controller": "controller.animation.alexsmobs.attack"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move",
+          "attack_controller"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#E07B2A",
+        "overlay_color": "#1E1E1E"
+      }
+    }
+  }
+}

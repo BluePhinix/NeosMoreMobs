@@ -1,0 +1,39 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:froststalker",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/froststalker"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.froststalker"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.froststalker.idle",
+        "walk": "animation.alexsmobs.froststalker.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "attack": "animation.alexsmobs.froststalker.bite",
+        "move": "controller.animation.alexsmobs.ground",
+        "attack_controller": "controller.animation.alexsmobs.attack"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move",
+          "attack_controller"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#8997C2",
+        "overlay_color": "#4D5B86"
+      }
+    }
+  }
+}

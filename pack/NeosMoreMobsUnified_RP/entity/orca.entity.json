@@ -1,0 +1,40 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:orca",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/orca"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.orca"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.orca.walk",
+        "walk": "animation.alexsmobs.orca.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "attack": "animation.alexsmobs.orca.bite",
+        "move": "controller.animation.alexsmobs.ground",
+        "attack_controller": "controller.animation.alexsmobs.attack"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move",
+          "attack_controller"
+        ],
+        "scale": "1.3"
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#565C67",
+        "overlay_color": "#1A202B"
+      }
+    }
+  }
+}

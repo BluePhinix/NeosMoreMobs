@@ -1,0 +1,228 @@
+{
+ "format_version": "1.12.0",
+ "minecraft:geometry": [
+  {
+   "description": {
+    "identifier": "geometry.alexsmobs.guster",
+    "texture_width": 128,
+    "texture_height": 128,
+    "visible_bounds_width": 2.475,
+    "visible_bounds_height": 2.4,
+    "visible_bounds_offset": [
+     0,
+     1.0,
+     0
+    ]
+   },
+   "bones": [
+    {
+     "name": "root",
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "name": "tornado",
+     "parent": "root",
+     "pivot": [
+      0.0,
+      4.0,
+      0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -4.0,
+        0.0,
+        -4.0
+       ],
+       "size": [
+        8.0,
+        8.0,
+        8.0
+       ],
+       "uv": [
+        65,
+        72
+       ]
+      }
+     ]
+    },
+    {
+     "name": "tornado2",
+     "parent": "tornado",
+     "pivot": [
+      0.0,
+      12.0,
+      0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -8.0,
+        8.0,
+        -8.0
+       ],
+       "size": [
+        16.0,
+        8.0,
+        16.0
+       ],
+       "uv": [
+        0,
+        72
+       ]
+      }
+     ]
+    },
+    {
+     "name": "tornadomid",
+     "parent": "tornado2",
+     "pivot": [
+      0.0,
+      6.0,
+      0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -14.0,
+        6.0,
+        -14.0
+       ],
+       "size": [
+        28.0,
+        4.0,
+        28.0
+       ],
+       "uv": [
+        16,
+        96
+       ]
+      }
+     ]
+    },
+    {
+     "name": "tornado3",
+     "parent": "tornado2",
+     "pivot": [
+      0.0,
+      20.0,
+      0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -12.0,
+        16.0,
+        -12.0
+       ],
+       "size": [
+        24.0,
+        8.0,
+        24.0
+       ],
+       "uv": [
+        0,
+        39
+       ]
+      }
+     ]
+    },
+    {
+     "name": "tornado4",
+     "parent": "tornado3",
+     "pivot": [
+      0.0,
+      28.0,
+      0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -15.0,
+        24.0,
+        -15.0
+       ],
+       "size": [
+        30.0,
+        8.0,
+        30.0
+       ],
+       "uv": [
+        0,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "eyes",
+     "parent": "root",
+     "pivot": [
+      0.0,
+      18.0,
+      -15.0
+     ]
+    },
+    {
+     "name": "eye_left",
+     "parent": "eyes",
+     "pivot": [
+      4.0,
+      18.0,
+      -15.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        1.0,
+        14.0,
+        -15.0
+       ],
+       "size": [
+        6.0,
+        8.0,
+        0.01
+       ],
+       "uv": [
+        8,
+        13
+       ]
+      }
+     ]
+    },
+    {
+     "name": "eye_right",
+     "parent": "eyes",
+     "pivot": [
+      -4.0,
+      18.0,
+      -15.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -7.0,
+        14.0,
+        -15.0
+       ],
+       "size": [
+        6.0,
+        8.0,
+        0.01
+       ],
+       "uv": [
+        8,
+        13
+       ],
+       "mirror": true
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

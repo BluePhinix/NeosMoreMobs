@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:tarantula_hawk",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/tarantula_hawk"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.tarantula_hawk"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.tarantula_hawk.idle",
+        "walk": "animation.alexsmobs.tarantula_hawk.idle",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "fly": "animation.alexsmobs.tarantula_hawk.fly",
+        "move": "controller.animation.alexsmobs.flyer"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ],
+        "scale": "0.9"
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#373043",
+        "overlay_color": "#000007"
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+ "format_version": "1.10.0",
+ "minecraft:client_entity": {
+  "description": {
+   "identifier": "neosmoremobs:spider",
+   "materials": {
+    "default": "entity_alphatest"
+   },
+   "textures": {
+    "default": "textures/entity/neosmoremobs/spider"
+   },
+   "geometry": {
+    "default": "geometry.neosmoremobs.spider"
+   },
+   "animations": {
+    "idle": "animation.neosmoremobs.spider.idle",
+    "walk": "animation.neosmoremobs.spider.walk",
+    "run": "animation.neosmoremobs.spider.run",
+    "attack": "animation.neosmoremobs.spider.attack",
+    "look_at_target": "animation.common.look_at_target",
+    "locomotion": "controller.animation.neosmoremobs.locomotion",
+    "attack_controller": "controller.animation.neosmoremobs.attack"
+   },
+   "scripts": {
+    "animate": [
+     "look_at_target",
+     "locomotion",
+     "attack_controller"
+    ]
+   },
+   "render_controllers": [
+    "controller.render.neosmoremobs.spider"
+   ],
+   "spawn_egg": {
+    "base_color": "#3B2C23",
+    "overlay_color": "#8A6B3F"
+   }
+  }
+ }
+}

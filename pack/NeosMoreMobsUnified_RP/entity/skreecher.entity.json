@@ -1,0 +1,37 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:skreecher",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/skreecher"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.skreecher"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.skreecher.idle",
+        "walk": "animation.alexsmobs.skreecher.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "fly": "animation.alexsmobs.skreecher.fly",
+        "move": "controller.animation.alexsmobs.flyer"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#1D494C",
+        "overlay_color": "#000D10"
+      }
+    }
+  }
+}

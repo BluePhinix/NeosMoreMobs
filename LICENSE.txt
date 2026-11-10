@@ -1,0 +1,189 @@
+NEO'S MORE MOBS - LICENSES AND ATTRIBUTION
+
+This file contains the required attribution and license notices for the third-party
+3D models used in this addon, and states the license of Neo's own work. The licenses
+in sections 1-8 apply only to the credited model assets. Everything else is covered
+by the ORIGINAL ASSETS grant at the end of this file.
+
+--------------------------------------------------------------------------------
+1. GRIZZLY BEAR AND BLACK BEAR MODEL
+--------------------------------------------------------------------------------
+Model: "Minecraft GrizzlyBear"
+Author: ContinuedOak
+Source: https://skfb.ly/o8yAw
+License: Creative Commons Attribution-NonCommercial 4.0 International
+         (CC BY-NC 4.0)
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+
+Changes made:
+- Imported the model into Minecraft Bedrock geometry.
+- Preserved the original UV mapping and texture layout.
+- Split the model into body, head, ear, leg, and tail bones for animation.
+- Added a small tail cube.
+- Recolored the texture for the Black Bear variant.
+- Authored new idle, walk, run, and attack animations.
+
+IMPORTANT: The bear model is licensed for non-commercial use only. This addon
+must not be sold or used commercially while this model is included.
+
+--------------------------------------------------------------------------------
+2. ELEPHANT MODEL
+--------------------------------------------------------------------------------
+Model: "Elephant from alexs mobs"
+Author: mrhurr2859
+Source: https://skfb.ly/pv6XN
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+Changes made:
+- Imported the model into Minecraft Bedrock geometry.
+- Preserved the original UV mapping and texture layout.
+- Split the model into body, head, ear, trunk, leg, and tail bones.
+- Authored new idle, walk, run, and attack animations.
+
+--------------------------------------------------------------------------------
+3. BISON MODEL
+--------------------------------------------------------------------------------
+Model: "bison from alex's mobs"
+Author: mrhurr2859
+Source: https://skfb.ly/puPno
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+Changes made:
+- Imported the model into Minecraft Bedrock geometry.
+- Preserved the original UV mapping and texture layout.
+- Split the model into body, head, leg, and tail bones.
+- Authored new idle, walk, run, and attack animations.
+
+--------------------------------------------------------------------------------
+4. SCORPION GIRL MODEL
+--------------------------------------------------------------------------------
+Model: "The scorpion girl - Blockbench"
+Author: Bada
+Source: https://skfb.ly/6XCQ9
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+Changes made:
+- Imported the model into Minecraft Bedrock geometry.
+- Preserved the original UV mapping and texture layout.
+- Preserved the source bone hierarchy.
+- Authored new idle, walk, run, and attack animations.
+
+--------------------------------------------------------------------------------
+5. WHALE MODEL
+--------------------------------------------------------------------------------
+Model: "Blockbench Whale (free)"
+Author: Treeminator
+Source: https://skfb.ly/oL9GK
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+Changes made:
+- Imported the model into Minecraft Bedrock geometry.
+- Preserved the original UV mapping, bone hierarchy, body, tail, and fin structure.
+- Authored new idle, walk, and run animations.
+
+--------------------------------------------------------------------------------
+6. DEER MODEL
+--------------------------------------------------------------------------------
+Model: "Minecraft Deer"
+Author: Catnim
+Source: https://skfb.ly/oGGSr
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+Changes made:
+- Imported the model into Minecraft Bedrock geometry.
+- Preserved the original UV mapping and body/neck/leg/head hierarchy.
+- Authored new idle, walk, and run animations.
+
+--------------------------------------------------------------------------------
+7. BLUE COMB JELLY MODEL
+--------------------------------------------------------------------------------
+Model: "blue comb jelly from Alexs mobs"
+Author: mrhurr2859
+Source: https://skfb.ly/pvUWP
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+Changes made:
+- Imported the model into Minecraft Bedrock geometry.
+- Preserved the original UV mapping and texture.
+- Added a single-body aquatic rig and new pulse/idle/swim animations.
+
+--------------------------------------------------------------------------------
+8. MINECRAFT AUSTRALIA EDITION MODELS
+--------------------------------------------------------------------------------
+Models: "Minecraft Australia Edition Models"
+Author: Whateverdata55
+Source: https://skfb.ly/oYnZJ
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+License URL: https://creativecommons.org/licenses/by/4.0/
+
+Models used: platypus, kangaroo, emu, and spider.
+Changes made:
+- Extracted each model as a separate Bedrock entity rig.
+- Preserved the original UV mapping and texture for each model.
+- Removed the shared showcase root transform and grounded each model.
+- Preserved the source bone hierarchy for the platypus, kangaroo, emu, and spider.
+- Authored new idle, walk, run, and spider attack animations.
+
+--------------------------------------------------------------------------------
+ORIGINAL ASSETS
+--------------------------------------------------------------------------------
+All other models, textures, animations, behavior files, and code in Neo's More Mobs
+were created for this project by Neo. Third-party model assets remain the property
+of their respective authors and are used under the licenses above.
+
+Neo's own work is released as open source under the following terms:
+
+- Code and data - behavior JSON, entity/client JSON, spawn rules, loot tables,
+  recipes, feature rules, structures, scripts, and the Python build tooling:
+  MIT License (text below).
+
+- Art assets - 3D models, textures, and animations created for this project:
+  Creative Commons Attribution 4.0 International (CC BY 4.0).
+  https://creativecommons.org/licenses/by/4.0/
+  You may share and adapt them, including commercially, as long as you give
+  appropriate credit to Neo (NeoPhinixMC) and link to the license.
+
+Attribution for the CC BY 4.0 art assets:
+  Neo's More Mobs by Neo (NeoPhinixMC) - https://github.com/BluePhinix
+
+These grants cover only the assets Neo created. They do not relicense any
+third-party model listed in sections 1-8, and they do not override the LGPL-3.0
+terms that apply to the Alex's Mobs port layer.
+
+Note on the non-commercial bear: because the Grizzly Bear and Black Bear models
+are CC BY-NC 4.0, the addon as distributed - which includes those models - must
+not be sold or used commercially. The open source grants above apply to Neo's
+own assets on their own; reuse them commercially by removing the bear assets.
+
+--------------------------------------------------------------------------------
+MIT LICENSE (Neo's code and data)
+--------------------------------------------------------------------------------
+Copyright (c) 2026 Neo (NeoPhinixMC)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Full legal texts for CC BY 4.0 and CC BY-NC 4.0 are available at:
+https://creativecommons.org/licenses/by/4.0/legalcode
+https://creativecommons.org/licenses/by-nc/4.0/legalcode

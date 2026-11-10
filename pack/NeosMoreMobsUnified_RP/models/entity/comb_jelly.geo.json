@@ -1,0 +1,83 @@
+{
+ "format_version": "1.12.0",
+ "minecraft:geometry": [
+  {
+   "description": {
+    "identifier": "geometry.alexsmobs.comb_jelly",
+    "texture_width": 64,
+    "texture_height": 64,
+    "visible_bounds_width": 1.225,
+    "visible_bounds_height": 1.4625,
+    "visible_bounds_offset": [
+     0,
+     0.5312,
+     0
+    ]
+   },
+   "bones": [
+    {
+     "name": "root",
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "name": "body",
+     "parent": "root",
+     "pivot": [
+      0.0,
+      13.0,
+      0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -5.0,
+        0.0,
+        -5.0
+       ],
+       "size": [
+        10.0,
+        15.0,
+        10.0
+       ],
+       "uv": [
+        0,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "inner_body",
+     "parent": "body",
+     "pivot": [
+      0.0,
+      16.0,
+      0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -3.0,
+        4.0,
+        -3.0
+       ],
+       "size": [
+        6.0,
+        13.0,
+        6.0
+       ],
+       "uv": [
+        40,
+        6
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

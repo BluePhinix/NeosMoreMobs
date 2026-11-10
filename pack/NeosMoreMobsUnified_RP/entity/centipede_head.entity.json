@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:centipede_head",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/centipede_head"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.centipede_head"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.centipede_head.idle",
+        "walk": "animation.alexsmobs.centipede_head.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "move": "controller.animation.alexsmobs.ground"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#7A413C",
+        "overlay_color": "#3E0500"
+      }
+    }
+  }
+}

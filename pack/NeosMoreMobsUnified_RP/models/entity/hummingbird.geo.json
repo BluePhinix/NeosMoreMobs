@@ -1,0 +1,290 @@
+{
+ "format_version": "1.12.0",
+ "minecraft:geometry": [
+  {
+   "description": {
+    "identifier": "geometry.alexsmobs.hummingbird",
+    "texture_width": 32,
+    "texture_height": 32,
+    "visible_bounds_width": 1.2937,
+    "visible_bounds_height": 0.9,
+    "visible_bounds_offset": [
+     0,
+     0.25,
+     0
+    ]
+   },
+   "bones": [
+    {
+     "name": "root",
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "name": "body",
+     "parent": "root",
+     "pivot": [
+      0.0,
+      0.5,
+      -0.5
+     ],
+     "rotation": [
+      -15.0,
+      0.0,
+      -0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -1.5,
+        0.2,
+        -1.9
+       ],
+       "size": [
+        3.0,
+        5.0,
+        3.0
+       ],
+       "uv": [
+        0,
+        6
+       ]
+      }
+     ]
+    },
+    {
+     "name": "head",
+     "parent": "body",
+     "pivot": [
+      0.0,
+      4.9,
+      0.1
+     ],
+     "rotation": [
+      12.5019,
+      0.0,
+      -0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -1.5,
+        5.0,
+        -2.0
+       ],
+       "size": [
+        3.0,
+        3.0,
+        3.0
+       ],
+       "uv": [
+        10,
+        12
+       ],
+       "inflate": 0.1
+      },
+      {
+       "origin": [
+        -0.5,
+        6.0,
+        -5.1
+       ],
+       "size": [
+        1.0,
+        1.0,
+        3.0
+       ],
+       "uv": [
+        12,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "wingL",
+     "parent": "body",
+     "pivot": [
+      1.5,
+      5.0,
+      0.0
+     ]
+    },
+    {
+     "name": "wingL_r1",
+     "parent": "wingL",
+     "pivot": [
+      1.2,
+      5.0,
+      -1.0
+     ],
+     "rotation": [
+      -0.0,
+      0.0,
+      5.0019
+     ],
+     "cubes": [
+      {
+       "origin": [
+        1.2,
+        0.0,
+        -1.1
+       ],
+       "size": [
+        1.0,
+        5.0,
+        2.0
+       ],
+       "uv": [
+        0,
+        15
+       ]
+      }
+     ]
+    },
+    {
+     "name": "wingR",
+     "parent": "body",
+     "pivot": [
+      -1.5,
+      5.0,
+      0.0
+     ]
+    },
+    {
+     "name": "wingR_r1",
+     "parent": "wingR",
+     "pivot": [
+      -1.2,
+      5.0,
+      -1.0
+     ],
+     "rotation": [
+      -0.0,
+      0.0,
+      -5.0019
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -2.2,
+        0.0,
+        -1.1
+       ],
+       "size": [
+        1.0,
+        5.0,
+        2.0
+       ],
+       "uv": [
+        0,
+        15
+       ],
+       "mirror": true
+      }
+     ]
+    },
+    {
+     "name": "tail",
+     "parent": "body",
+     "pivot": [
+      0.0,
+      0.6,
+      1.0
+     ],
+     "rotation": [
+      27.502,
+      0.0,
+      -0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -1.5,
+        0.59,
+        1.0
+       ],
+       "size": [
+        3.0,
+        0.01,
+        5.0
+       ],
+       "uv": [
+        0,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "legL",
+     "parent": "body",
+     "pivot": [
+      0.9,
+      1.2,
+      -1.6
+     ],
+     "rotation": [
+      15.0,
+      0.0,
+      -0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        0.4,
+        0.2,
+        -2.6
+       ],
+       "size": [
+        1.0,
+        1.0,
+        1.0
+       ],
+       "uv": [
+        0,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "legR",
+     "parent": "body",
+     "pivot": [
+      -0.9,
+      1.2,
+      -1.6
+     ],
+     "rotation": [
+      15.0,
+      0.0,
+      -0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -1.4,
+        0.2,
+        -2.6
+       ],
+       "size": [
+        1.0,
+        1.0,
+        1.0
+       ],
+       "uv": [
+        0,
+        0
+       ],
+       "mirror": true
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

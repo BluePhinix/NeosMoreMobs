@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "neosmoremobs:deer",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/neosmoremobs/deer"
+      },
+      "geometry": {
+        "default": "geometry.neosmoremobs.deer"
+      },
+      "animations": {
+        "idle": "animation.neosmoremobs.deer.idle",
+        "walk": "animation.neosmoremobs.deer.walk",
+        "run": "animation.neosmoremobs.deer.run",
+        "look_at_target": "animation.common.look_at_target",
+        "move": "controller.animation.neosmoremobs.locomotion"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ],
+        "scale": "0.95"
+      },
+      "render_controllers": [
+        "controller.render.neosmoremobs.deer"
+      ],
+      "spawn_egg": {
+        "base_color": "#8B5A3C",
+        "overlay_color": "#D9C2A3"
+      }
+    }
+  }
+}

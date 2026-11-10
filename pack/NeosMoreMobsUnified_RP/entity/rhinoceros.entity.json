@@ -1,0 +1,40 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:rhinoceros",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/rhinoceros"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.rhinoceros"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.rhinoceros.idle",
+        "walk": "animation.alexsmobs.rhinoceros.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "attack": "animation.alexsmobs.rhinoceros.fling",
+        "move": "controller.animation.alexsmobs.ground",
+        "attack_controller": "controller.animation.alexsmobs.attack"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move",
+          "attack_controller"
+        ],
+        "scale": "1.1"
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#8C8C8C",
+        "overlay_color": "#4D4D4D"
+      }
+    }
+  }
+}

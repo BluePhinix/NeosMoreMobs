@@ -1,0 +1,39 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:bunfungus",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/bunfungus"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.bunfungus"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.bunfungus.idle",
+        "walk": "animation.alexsmobs.bunfungus.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "attack": "animation.alexsmobs.bunfungus.slam",
+        "move": "controller.animation.alexsmobs.ground",
+        "attack_controller": "controller.animation.alexsmobs.attack"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move",
+          "attack_controller"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#967F8E",
+        "overlay_color": "#5A4352"
+      }
+    }
+  }
+}

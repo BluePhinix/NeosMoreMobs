@@ -1,0 +1,73 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.alexsmobs.mungus.walk": {
+   "loop": true,
+   "anim_time_update": "query.modified_distance_moved",
+   "bones": {
+    "leg_right": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 26.7 + 57.30) * -37.815)",
+      0.0,
+      -0.0
+     ],
+     "position": [
+      0.0,
+      "-(math.sin(q.anim_time * 26.7) * 0.600 - 0.600)",
+      0.0
+     ]
+    },
+    "leg_left": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 26.7 + 57.30) * 37.815)",
+      0.0,
+      -0.0
+     ],
+     "position": [
+      0.0,
+      "-(math.sin(q.anim_time * 26.7) * 0.600 - 0.600)",
+      0.0
+     ]
+    },
+    "body": {
+     "rotation": [
+      -0.0,
+      0.0,
+      "-(math.cos(q.anim_time * 26.7 + 28.65) * 13.751)"
+     ],
+     "position": [
+      0.0,
+      "-(-math.abs(math.sin(q.anim_time * 26.7)) * 1.800)",
+      0.0
+     ]
+    },
+    "nose": {
+     "rotation": [
+      -0.0,
+      0.0,
+      "-(math.cos(q.anim_time * 26.7 + 57.30) * 6.875)"
+     ]
+    }
+   }
+  },
+  "animation.alexsmobs.mungus.idle": {
+   "loop": true,
+   "bones": {
+    "hair": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 114.6 + 57.30) * 5.730 + -5.730)",
+      0.0,
+      -0.0
+     ]
+    },
+    "nose": {
+     "rotation": [
+      -0.0,
+      0.0,
+      "-(math.cos(q.anim_time * 114.6 + 0.00) * 5.730)"
+     ]
+    }
+   }
+  }
+ }
+}

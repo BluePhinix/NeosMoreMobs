@@ -1,0 +1,67 @@
+NEO'S MORE MOBS - MODEL CREDITS
+
+Grizzly Bear and Black Bear
+Model: "Minecraft GrizzlyBear" by ContinuedOak
+Source: https://skfb.ly/o8yAw
+License: Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+Changes: imported and optimized for Bedrock geometry, UV-preserved, recolored for the Black Bear variant, a small tail was added, and new idle/walk/run/attack animations were authored.
+
+Elephant
+Model: "Elephant from alexs mobs" by mrhurr2859
+Source: https://skfb.ly/pv6XN
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+License URL: https://creativecommons.org/licenses/by/4.0/
+Changes: imported and optimized for Bedrock geometry, UV-preserved, split into body/head/ear/trunk/leg/tail bones, and new idle/walk/run/attack animations were authored.
+
+Bison
+Model: "bison from alex's mobs" by mrhurr2859
+Source: https://skfb.ly/puPno
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+License URL: https://creativecommons.org/licenses/by/4.0/
+Changes: imported and optimized for Bedrock geometry, UV-preserved, split into body/head/leg/tail bones, and new idle/walk/run/attack animations were authored.
+
+Scorpion Girl
+Model: "The scorpion girl - Blockbench" by Bada
+Source: https://skfb.ly/6XCQ9
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+License URL: https://creativecommons.org/licenses/by/4.0/
+Changes: imported and optimized for Bedrock geometry, UV-preserved, source bone hierarchy preserved, and new idle/walk/run/attack animations were authored.
+
+Whale
+Model: "Blockbench Whale (free)" by Treeminator
+Source: https://skfb.ly/oL9GK
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+License URL: https://creativecommons.org/licenses/by/4.0/
+Changes: imported and optimized for Bedrock geometry, UV-preserved, bone hierarchy preserved, and new idle/walk/run animations were authored.
+
+Deer
+Model: "Minecraft Deer" by Catnim
+Source: https://skfb.ly/oGGSr
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+License URL: https://creativecommons.org/licenses/by/4.0/
+Changes: imported and optimized for Bedrock geometry, UV-preserved, body/neck/leg/head hierarchy preserved, and new idle/walk/run animations were authored.
+
+Blue Comb Jelly
+Model: "blue comb jelly from Alexs mobs" by mrhurr2859
+Source: https://skfb.ly/pvUWP
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+License URL: https://creativecommons.org/licenses/by/4.0/
+Changes: imported and optimized for Bedrock geometry, UV and texture preserved, single-body aquatic rig added, and new pulse/idle/swim animations were authored.
+
+Minecraft Australia Edition Models
+Models: "Minecraft Australia Edition Models" by Whateverdata55
+Source: https://skfb.ly/oYnZJ
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+License URL: https://creativecommons.org/licenses/by/4.0/
+Models used: platypus, kangaroo, emu, and spider.
+Changes: each model extracted as a separate Bedrock entity rig, UV and textures preserved, shared showcase root transform removed and each model grounded, source bone hierarchy preserved, and new idle/walk/run and spider attack animations were authored.
+
+ALEX'S MOBS PORT
+Alex's Mobs 1.22.9 and Citadel by AlexModGuy and contributors, LGPL-3.0.
+Original projects: https://github.com/AlexModGuy/AlexsMobs and https://github.com/AlexModGuy/Citadel
+
+ORIGINAL ASSETS
+All other models, textures and animations in this pack were created for Neo's More Mobs by Neo, and are released under CC BY 4.0. Behavior files, JSON and build scripts are released under MIT. See LICENSE.txt for the full grant.
+
+The Grizzly Bear and Black Bear assets are licensed for non-commercial use only. This pack must not be sold while those assets are included.

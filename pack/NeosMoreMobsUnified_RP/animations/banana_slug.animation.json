@@ -1,0 +1,37 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.alexsmobs.banana_slug.walk": {
+   "loop": true,
+   "anim_time_update": "query.modified_distance_moved",
+   "bones": {
+    "tail": {
+     "rotation": [
+      -0.0,
+      "math.cos(q.anim_time * 38.2 + 171.89) * -11.459",
+      -0.0
+     ]
+    }
+   }
+  },
+  "animation.alexsmobs.banana_slug.idle": {
+   "loop": true,
+   "bones": {
+    "leftAntenna": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 286.5 + 171.89) * -7.162 + 5.730)",
+      "math.cos(q.anim_time * 286.5 + 57.30) * -2.865 + 5.730",
+      5.0019
+     ]
+    },
+    "rightAntenna": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 286.5 + 171.89) * -7.162 + 5.730)",
+      "math.cos(q.anim_time * 286.5 + 57.30) * 2.865 + 5.730",
+      -5.0019
+     ]
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:terrapin",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/terrapin"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.terrapin"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.terrapin.idle",
+        "walk": "animation.alexsmobs.terrapin.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "move": "controller.animation.alexsmobs.ground"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#40352D",
+        "overlay_color": "#040000"
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:anteater",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/anteater"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.anteater"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.anteater.idle",
+        "walk": "animation.alexsmobs.anteater.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "attack": "animation.alexsmobs.anteater.slash_l",
+        "move": "controller.animation.alexsmobs.ground",
+        "attack_controller": "controller.animation.alexsmobs.attack"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move",
+          "attack_controller"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#9B7B5A",
+        "overlay_color": "#3B2F25"
+      }
+    }
+  }
+}

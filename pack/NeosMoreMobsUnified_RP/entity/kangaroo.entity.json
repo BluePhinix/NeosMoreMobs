@@ -1,0 +1,39 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:kangaroo",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/kangaroo"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.kangaroo"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.kangaroo.idle",
+        "walk": "animation.alexsmobs.kangaroo.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "attack": "animation.alexsmobs.kangaroo.kick",
+        "move": "controller.animation.alexsmobs.ground",
+        "attack_controller": "controller.animation.alexsmobs.attack"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move",
+          "attack_controller"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#B07B4F",
+        "overlay_color": "#6B472A"
+      }
+    }
+  }
+}

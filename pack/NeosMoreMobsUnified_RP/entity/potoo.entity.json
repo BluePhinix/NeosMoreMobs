@@ -1,0 +1,37 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:potoo",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/potoo"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.potoo"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.potoo.walk",
+        "walk": "animation.alexsmobs.potoo.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "fly": "animation.alexsmobs.potoo.fly",
+        "move": "controller.animation.alexsmobs.flyer"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#937551",
+        "overlay_color": "#573915"
+      }
+    }
+  }
+}

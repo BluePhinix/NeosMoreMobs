@@ -1,0 +1,93 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.alexsmobs.komodo_dragon.walk": {
+   "loop": true,
+   "anim_time_update": "query.modified_distance_moved",
+   "bones": {
+    "body": {
+     "rotation": [
+      -0.0,
+      "math.cos(q.anim_time * 19.1 + 57.30) * 20.054",
+      "-(math.cos(q.anim_time * 19.1 + 0.00) * 20.054)"
+     ]
+    },
+    "neck": {
+     "rotation": [
+      -0.0,
+      "math.cos(q.anim_time * 19.1 + 57.30) * -10.027",
+      "-(math.cos(q.anim_time * 19.1 + 0.00) * -10.027)"
+     ]
+    },
+    "head": {
+     "rotation": [
+      -0.0,
+      "math.cos(q.anim_time * 19.1 + 57.30) * -10.027",
+      "-(math.cos(q.anim_time * 19.1 + 0.00) * -10.027)"
+     ]
+    },
+    "tail1": {
+     "rotation": [
+      -0.0,
+      "math.cos(q.anim_time * 19.1 + 114.59) * 20.054",
+      "-(math.cos(q.anim_time * 19.1 + 0.00) * -20.054)"
+     ]
+    },
+    "tail2": {
+     "rotation": [
+      -0.0,
+      "math.cos(q.anim_time * 19.1 + 114.59) * 20.054",
+      -0.0
+     ]
+    },
+    "left_arm": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 19.1 + -143.24) * 48.128 + -14.324)",
+      0.0,
+      "-(math.cos(q.anim_time * 19.1 + -143.24) * 40.107 + -14.324)"
+     ]
+    },
+    "right_arm": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 19.1 + -143.24) * -48.128 + 14.324)",
+      0.0,
+      "-(math.cos(q.anim_time * 19.1 + -143.24) * 40.107 + 14.324)"
+     ]
+    },
+    "right_leg": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 19.1 + -143.24) * 48.128 + 14.324)",
+      0.0,
+      "-(math.cos(q.anim_time * 19.1 + -143.24) * 40.107 + 14.324)"
+     ]
+    },
+    "left_leg": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 19.1 + -143.24) * -48.128 + -14.324)",
+      0.0,
+      "-(math.cos(q.anim_time * 19.1 + -143.24) * 40.107 + -14.324)"
+     ]
+    }
+   }
+  },
+  "animation.alexsmobs.komodo_dragon.idle": {
+   "loop": true,
+   "bones": {
+    "neck": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 80.2 + 114.59) * 4.011)",
+      0.0,
+      -0.0
+     ]
+    },
+    "head": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 80.2 + 229.18) * 4.011)",
+      0.0,
+      -0.0
+     ]
+    }
+   }
+  }
+ }
+}

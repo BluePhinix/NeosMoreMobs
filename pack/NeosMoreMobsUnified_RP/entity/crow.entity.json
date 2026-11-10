@@ -1,0 +1,37 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:crow",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/crow"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.crow"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.crow.idle",
+        "walk": "animation.alexsmobs.crow.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "fly": "animation.alexsmobs.crow.fly",
+        "move": "controller.animation.alexsmobs.flyer"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#1C1C1C",
+        "overlay_color": "#474747"
+      }
+    }
+  }
+}

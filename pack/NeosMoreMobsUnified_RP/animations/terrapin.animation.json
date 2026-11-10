@@ -1,0 +1,72 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.alexsmobs.terrapin.walk": {
+   "loop": true,
+   "anim_time_update": "query.modified_distance_moved",
+   "bones": {
+    "body": {
+     "rotation": [
+      -0.0,
+      "math.cos(q.anim_time * 11.5 + 57.30) * 20.054",
+      "-(math.cos(q.anim_time * 11.5 + 0.00) * 20.054 + math.cos(q.anim_time * 19.1 + 0.00) * 9.167)"
+     ]
+    },
+    "head": {
+     "rotation": [
+      -0.0,
+      "math.cos(q.anim_time * 11.5 + 57.30) * -20.054",
+      "-(math.cos(q.anim_time * 11.5 + 0.00) * -20.054 + math.cos(q.anim_time * 19.1 + 0.00) * -9.167)"
+     ]
+    },
+    "tail": {
+     "rotation": [
+      -0.0,
+      "math.cos(q.anim_time * 11.5 + 114.59) * 20.054",
+      "-(math.cos(q.anim_time * 11.5 + 0.00) * -20.054 + math.cos(q.anim_time * 19.1 + 0.00) * -9.167)"
+     ]
+    },
+    "left_arm": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 11.5 + -143.24) * 40.107 + -5.730 + math.cos(q.anim_time * 19.1 + 171.89) * 45.837 + 17.189)",
+      0.0,
+      "-(math.cos(q.anim_time * 19.1 + 0.00) * -9.167)"
+     ]
+    },
+    "right_arm": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 11.5 + -143.24) * -40.107 + 5.730 + math.cos(q.anim_time * 19.1 + 171.89) * 45.837 + 17.189)",
+      0.0,
+      "-(math.cos(q.anim_time * 19.1 + 0.00) * -9.167)"
+     ]
+    },
+    "right_leg": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 11.5 + -143.24) * 40.107 + 5.730 + math.cos(q.anim_time * 19.1 + 114.59) * 45.837 + 17.189)",
+      0.0,
+      "-(math.cos(q.anim_time * 19.1 + 0.00) * -9.167)"
+     ]
+    },
+    "left_leg": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 11.5 + -143.24) * -40.107 + -5.730 + math.cos(q.anim_time * 19.1 + 114.59) * 45.837 + 17.189)",
+      0.0,
+      "-(math.cos(q.anim_time * 19.1 + 0.00) * -9.167)"
+     ]
+    }
+   }
+  },
+  "animation.alexsmobs.terrapin.idle": {
+   "loop": true,
+   "bones": {
+    "tail": {
+     "rotation": [
+      -0.0,
+      "math.cos(q.anim_time * 171.9 + -114.59) * -40.107",
+      -0.0
+     ]
+    }
+   }
+  }
+ }
+}

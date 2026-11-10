@@ -1,0 +1,39 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:tasmanian_devil",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/tasmanian_devil"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.tasmanian_devil"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.tasmanian_devil.idle",
+        "walk": "animation.alexsmobs.tasmanian_devil.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "attack": "animation.alexsmobs.tasmanian_devil.attack",
+        "move": "controller.animation.alexsmobs.ground",
+        "attack_controller": "controller.animation.alexsmobs.attack"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move",
+          "attack_controller"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#1F131E",
+        "overlay_color": "#000000"
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.alexsmobs.devils_hole_pupfish.walk": {
+   "loop": true,
+   "anim_time_update": "query.modified_distance_moved",
+   "bones": {
+    "tail": {
+     "rotation": [
+      -0.0,
+      "math.cos(q.anim_time * 38.2 + 0.00) * 28.648",
+      -0.0
+     ]
+    },
+    "body": {
+     "rotation": [
+      -0.0,
+      "math.cos(q.anim_time * 38.2 + 57.30) * 8.594",
+      -0.0
+     ]
+    },
+    "left_fin": {
+     "rotation": [
+      -0.0,
+      "27.502 + math.cos(q.anim_time * 38.2 + 171.89) * 28.648 + 34.377",
+      -0.0
+     ]
+    },
+    "right_fin": {
+     "rotation": [
+      -0.0,
+      "-27.502 + math.cos(q.anim_time * 38.2 + 171.89) * -28.648 + 34.377",
+      -0.0
+     ]
+    }
+   }
+  },
+  "animation.alexsmobs.devils_hole_pupfish.idle": {
+   "loop": true,
+   "bones": {
+    "body": {
+     "rotation": [
+      -0.0,
+      "math.cos(q.anim_time * 343.8 + 57.30) * 2.865",
+      -0.0
+     ],
+     "position": [
+      0.0,
+      "-(math.sin(q.anim_time * 343.8) * 0.500 - 0.500)",
+      0.0
+     ]
+    },
+    "tail": {
+     "rotation": [
+      -0.0,
+      "math.cos(q.anim_time * 343.8 + -57.30) * 8.594",
+      -0.0
+     ]
+    }
+   }
+  }
+ }
+}

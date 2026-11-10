@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:komodo_dragon",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/komodo_dragon"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.komodo_dragon"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.komodo_dragon.idle",
+        "walk": "animation.alexsmobs.komodo_dragon.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "move": "controller.animation.alexsmobs.ground"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#7A7A4A",
+        "overlay_color": "#3B3B1F"
+      }
+    }
+  }
+}

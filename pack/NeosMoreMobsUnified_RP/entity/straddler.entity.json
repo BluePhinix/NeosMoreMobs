@@ -1,0 +1,37 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:straddler",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/straddler"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.straddler"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.straddler.idle",
+        "walk": "animation.alexsmobs.straddler.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "move": "controller.animation.alexsmobs.ground"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ],
+        "scale": "1.2"
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#53576A",
+        "overlay_color": "#171B2E"
+      }
+    }
+  }
+}

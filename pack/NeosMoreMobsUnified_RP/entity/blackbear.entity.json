@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "neosmoremobs:blackbear",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/neosmoremobs/blackbear"
+      },
+      "geometry": {
+        "default": "geometry.neosmoremobs.blackbear"
+      },
+      "animations": {
+        "idle": "animation.neosmoremobs.blackbear.idle",
+        "walk": "animation.neosmoremobs.blackbear.walk",
+        "run": "animation.neosmoremobs.blackbear.run",
+        "look_at_target": "animation.common.look_at_target",
+        "attack": "animation.neosmoremobs.blackbear.attack",
+        "move": "controller.animation.neosmoremobs.locomotion",
+        "attack_controller": "controller.animation.neosmoremobs.attack"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move",
+          "attack_controller"
+        ],
+        "scale": "1.0"
+      },
+      "render_controllers": [
+        "controller.render.neosmoremobs.blackbear"
+      ],
+      "spawn_egg": {
+        "base_color": "#1C1A17",
+        "overlay_color": "#B08A63"
+      }
+    }
+  }
+}

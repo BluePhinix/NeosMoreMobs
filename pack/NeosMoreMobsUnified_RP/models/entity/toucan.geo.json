@@ -1,0 +1,337 @@
+{
+ "format_version": "1.12.0",
+ "minecraft:geometry": [
+  {
+   "description": {
+    "identifier": "geometry.alexsmobs.toucan",
+    "texture_width": 64,
+    "texture_height": 64,
+    "visible_bounds_width": 1.775,
+    "visible_bounds_height": 1.025,
+    "visible_bounds_offset": [
+     0,
+     0.3313,
+     0
+    ]
+   },
+   "bones": [
+    {
+     "name": "root",
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "name": "body",
+     "parent": "root",
+     "pivot": [
+      0.0,
+      4.3,
+      0.6
+     ],
+     "rotation": [
+      20.002,
+      0.0,
+      -0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -2.0,
+        3.3,
+        -4.4
+       ],
+       "size": [
+        4.0,
+        4.0,
+        7.0
+       ],
+       "uv": [
+        0,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "tail",
+     "parent": "body",
+     "pivot": [
+      0.0,
+      6.3,
+      2.6
+     ],
+     "rotation": [
+      -22.5001,
+      0.0,
+      -0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -1.5,
+        5.3,
+        2.6
+       ],
+       "size": [
+        3.0,
+        2.0,
+        5.0
+       ],
+       "uv": [
+        18,
+        7
+       ]
+      }
+     ]
+    },
+    {
+     "name": "left_wing",
+     "parent": "body",
+     "pivot": [
+      2.0,
+      6.3,
+      -2.4
+     ],
+     "rotation": [
+      -7.5,
+      0.0,
+      -0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        2.0,
+        3.3,
+        -3.4
+       ],
+       "size": [
+        1.0,
+        4.0,
+        6.0
+       ],
+       "uv": [
+        11,
+        16
+       ]
+      }
+     ]
+    },
+    {
+     "name": "left_wingtip",
+     "parent": "left_wing",
+     "pivot": [
+      2.3,
+      6.2,
+      0.6
+     ],
+     "cubes": [
+      {
+       "origin": [
+        2.3,
+        4.2,
+        -0.4
+       ],
+       "size": [
+        0.01,
+        3.0,
+        6.0
+       ],
+       "uv": [
+        20,
+        21
+       ]
+      }
+     ]
+    },
+    {
+     "name": "right_wing",
+     "parent": "body",
+     "pivot": [
+      -2.0,
+      6.3,
+      -2.4
+     ],
+     "rotation": [
+      -7.5,
+      0.0,
+      -0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -3.0,
+        3.3,
+        -3.4
+       ],
+       "size": [
+        1.0,
+        4.0,
+        6.0
+       ],
+       "uv": [
+        11,
+        16
+       ],
+       "mirror": true
+      }
+     ]
+    },
+    {
+     "name": "right_wingtip",
+     "parent": "right_wing",
+     "pivot": [
+      -2.3,
+      6.2,
+      0.6
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -2.3,
+        4.2,
+        -0.4
+       ],
+       "size": [
+        0.01,
+        3.0,
+        6.0
+       ],
+       "uv": [
+        20,
+        21
+       ],
+       "mirror": true
+      }
+     ]
+    },
+    {
+     "name": "left_leg",
+     "parent": "body",
+     "pivot": [
+      1.5,
+      3.3,
+      1.6
+     ],
+     "rotation": [
+      -20.002,
+      0.0,
+      -0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        1.0,
+        0.3,
+        -0.4
+       ],
+       "size": [
+        1.0,
+        3.0,
+        2.0
+       ],
+       "uv": [
+        0,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "right_leg",
+     "parent": "body",
+     "pivot": [
+      -1.5,
+      3.3,
+      1.6
+     ],
+     "rotation": [
+      -20.002,
+      0.0,
+      -0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -2.0,
+        0.3,
+        -0.4
+       ],
+       "size": [
+        1.0,
+        3.0,
+        2.0
+       ],
+       "uv": [
+        0,
+        0
+       ],
+       "mirror": true
+      }
+     ]
+    },
+    {
+     "name": "head",
+     "parent": "body",
+     "pivot": [
+      0.0,
+      6.3,
+      -3.4
+     ],
+     "rotation": [
+      -27.502,
+      0.0,
+      -0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -1.5,
+        5.3,
+        -5.4
+       ],
+       "size": [
+        3.0,
+        5.0,
+        3.0
+       ],
+       "uv": [
+        0,
+        24
+       ]
+      }
+     ]
+    },
+    {
+     "name": "beak",
+     "parent": "head",
+     "pivot": [
+      0.0,
+      10.3,
+      -5.2
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -1.0,
+        7.3,
+        -11.2
+       ],
+       "size": [
+        2.0,
+        3.0,
+        6.0
+       ],
+       "uv": [
+        0,
+        12
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,127 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.alexsmobs.crow.walk": {
+   "loop": true,
+   "anim_time_update": "query.modified_distance_moved",
+   "bones": {
+    "body": {
+     "position": [
+      0.0,
+      "-(-math.abs(math.sin(q.anim_time * 45.8)) * 1.014)",
+      0.0
+     ]
+    },
+    "leg_right": {
+     "rotation": [
+      "-32.4982 + -(math.cos(q.anim_time * 45.8 + 0.00) * 82.678 + 11.459)",
+      0.0,
+      -0.0
+     ]
+    },
+    "leg_left": {
+     "rotation": [
+      "-32.4982 + -(math.cos(q.anim_time * 45.8 + 0.00) * -82.678 + 11.459)",
+      0.0,
+      -0.0
+     ]
+    },
+    "head": {
+     "rotation": [
+      "42.502 + -(math.cos(q.anim_time * 45.8 + 114.59) * 17.876 + -0.573)",
+      0.0,
+      -0.0
+     ]
+    },
+    "tail": {
+     "rotation": [
+      7.5,
+      0.0,
+      "-(math.cos(q.anim_time * 45.8 + 57.30) * 8.938)"
+     ]
+    }
+   }
+  },
+  "animation.alexsmobs.crow.idle": {
+   "loop": true,
+   "bones": {
+    "head": {
+     "rotation": [
+      "42.502 + -(math.cos(q.anim_time * 80.2 + -57.30) * 5.730 + 2.865)",
+      0.0,
+      -0.0
+     ]
+    },
+    "tail": {
+     "rotation": [
+      "7.5 + -(math.cos(q.anim_time * 80.2 + 57.30) * 5.730 + 2.865)",
+      0.0,
+      -0.0
+     ]
+    }
+   }
+  },
+  "animation.alexsmobs.crow.fly": {
+   "loop": true,
+   "bones": {
+    "body": {
+     "rotation": [
+      "-57.502 + -(20.000)",
+      "0.000",
+      "-(0.000)"
+     ],
+     "position": [
+      0.0,
+      "-(-math.abs(math.sin(q.anim_time * 1008.4)) * 0.800)",
+      0.0
+     ]
+    },
+    "head": {
+     "rotation": [
+      "42.502 + -(-15.000 + math.cos(q.anim_time * 2016.8 + 114.59) * -2.292 + -5.730)",
+      "0.000",
+      "-(0.000)"
+     ]
+    },
+    "leg_left": {
+     "rotation": [
+      "-32.4982 + -(55.000)",
+      "0.000",
+      "-(0.000)"
+     ]
+    },
+    "leg_right": {
+     "rotation": [
+      "-32.4982 + -(55.000)",
+      "0.000",
+      "-(0.000)"
+     ]
+    },
+    "wing_right": {
+     "rotation": [
+      "-2.4981 + -(-90.000)",
+      "90.000 + math.cos(q.anim_time * 2016.8 + 0.00) * -57.296",
+      "-(0.000)"
+     ],
+     "position": [
+      "0.000",
+      "-(2.000)",
+      "1.000"
+     ]
+    },
+    "wing_left": {
+     "rotation": [
+      "-2.4981 + -(-90.000)",
+      "-90.000 + math.cos(q.anim_time * 2016.8 + 0.00) * 57.296",
+      "-(0.000)"
+     ],
+     "position": [
+      "0.000",
+      "-(2.000)",
+      "1.000"
+     ]
+    }
+   }
+  }
+ }
+}

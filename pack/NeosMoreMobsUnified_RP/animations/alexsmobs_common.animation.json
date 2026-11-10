@@ -1,0 +1,20 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.alexsmobs.common.look_at_target": {
+   "loop": true,
+   "bones": {
+    "head": {
+     "relative_to": {
+      "rotation": "entity"
+     },
+     "rotation": [
+      "math.clamp(query.target_x_rotation - this, -35, 35)",
+      "math.clamp(query.target_y_rotation - this, -60, 60)",
+      0
+     ]
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.alexsmobs.mimicube.walk": {
+   "loop": true,
+   "anim_time_update": "query.modified_distance_moved",
+   "bones": {
+    "innerbody": {
+     "position": [
+      0.0,
+      "-(math.sin(q.anim_time * 38.2) * 0.100 - 0.100)",
+      0.0
+     ]
+    }
+   }
+  },
+  "animation.alexsmobs.mimicube.idle": {
+   "loop": true,
+   "bones": {
+    "innerbody": {
+     "rotation": [
+      -0.0,
+      0.0,
+      "-(math.cos(q.anim_time * 149.0 + 114.59) * 2.865)"
+     ]
+    }
+   }
+  }
+ }
+}

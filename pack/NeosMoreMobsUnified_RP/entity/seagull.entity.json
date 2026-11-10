@@ -1,0 +1,37 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:seagull",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/seagull"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.seagull"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.seagull.idle",
+        "walk": "animation.alexsmobs.seagull.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "fly": "animation.alexsmobs.seagull.fly",
+        "move": "controller.animation.alexsmobs.flyer"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#F5F5F5",
+        "overlay_color": "#D8B44A"
+      }
+    }
+  }
+}

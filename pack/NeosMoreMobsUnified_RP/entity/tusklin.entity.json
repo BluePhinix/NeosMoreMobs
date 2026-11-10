@@ -1,0 +1,39 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:tusklin",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/tusklin"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.tusklin"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.tusklin.idle",
+        "walk": "animation.alexsmobs.tusklin.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "attack": "animation.alexsmobs.tusklin.fling",
+        "move": "controller.animation.alexsmobs.ground",
+        "attack_controller": "controller.animation.alexsmobs.attack"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move",
+          "attack_controller"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#907A67",
+        "overlay_color": "#543E2B"
+      }
+    }
+  }
+}

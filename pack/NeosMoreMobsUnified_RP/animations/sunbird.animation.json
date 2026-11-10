@@ -1,0 +1,119 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.alexsmobs.sunbird.walk": {
+   "loop": true,
+   "anim_time_update": "query.modified_distance_moved",
+   "bones": {
+    "tail1": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 7.6 + 57.30) * 6.875)",
+      0.0,
+      -0.0
+     ]
+    },
+    "left_leg": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 7.6 + 171.89) * 6.875)",
+      0.0,
+      -0.0
+     ]
+    },
+    "right_leg": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 7.6 + 171.89) * 6.875)",
+      0.0,
+      -0.0
+     ]
+    },
+    "body": {
+     "position": [
+      0.0,
+      "-(math.sin(q.anim_time * 7.6) * 3.600 - 3.600)",
+      0.0
+     ]
+    }
+   }
+  },
+  "animation.alexsmobs.sunbird.idle": {
+   "loop": true,
+   "bones": {
+    "right_wing": {
+     "rotation": [
+      -0.0,
+      0.0,
+      "-(math.cos(q.anim_time * 229.2 + 0.00) * 34.377)"
+     ]
+    },
+    "left_wing": {
+     "rotation": [
+      -0.0,
+      0.0,
+      "-(math.cos(q.anim_time * 229.2 + 0.00) * -34.377)"
+     ]
+    },
+    "right_wing2": {
+     "rotation": [
+      -0.0,
+      0.0,
+      "-(math.cos(q.anim_time * 229.2 + -68.75) * 34.377)"
+     ]
+    },
+    "left_wing2": {
+     "rotation": [
+      -0.0,
+      0.0,
+      "-(math.cos(q.anim_time * 229.2 + -68.75) * -34.377)"
+     ]
+    },
+    "tail1": {
+     "rotation": [
+      -0.0,
+      "math.cos(q.anim_time * 229.2 + 57.30) * 3.438",
+      -0.0
+     ]
+    }
+   }
+  },
+  "animation.alexsmobs.sunbird.fly": {
+   "loop": true,
+   "bones": {
+    "right_wing": {
+     "rotation": [
+      -0.0,
+      0.0,
+      "-(math.cos(q.anim_time * 229.2 + 0.00) * 34.377)"
+     ]
+    },
+    "left_wing": {
+     "rotation": [
+      -0.0,
+      0.0,
+      "-(math.cos(q.anim_time * 229.2 + 0.00) * -34.377)"
+     ]
+    },
+    "right_wing2": {
+     "rotation": [
+      -0.0,
+      0.0,
+      "-(math.cos(q.anim_time * 229.2 + -68.75) * 34.377)"
+     ]
+    },
+    "left_wing2": {
+     "rotation": [
+      -0.0,
+      0.0,
+      "-(math.cos(q.anim_time * 229.2 + -68.75) * -34.377)"
+     ]
+    },
+    "tail1": {
+     "rotation": [
+      -0.0,
+      "math.cos(q.anim_time * 229.2 + 57.30) * 3.438",
+      -0.0
+     ]
+    }
+   }
+  }
+ }
+}

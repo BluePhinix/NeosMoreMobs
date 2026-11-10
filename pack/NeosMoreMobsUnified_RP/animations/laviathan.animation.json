@@ -1,0 +1,24 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.alexsmobs.laviathan.idle": {
+   "loop": true,
+   "bones": {
+    "tail": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 45.8 + 74.48) * 6.875 + -11.459)",
+      0.0,
+      -0.0
+     ]
+    },
+    "bottom_jaw": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 91.7 + 57.30) * 6.875 + 5.730)",
+      0.0,
+      -0.0
+     ]
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:lobster",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/lobster"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.lobster"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.lobster.idle",
+        "walk": "animation.alexsmobs.lobster.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "move": "controller.animation.alexsmobs.ground"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#B23A2A",
+        "overlay_color": "#E08A5A"
+      }
+    }
+  }
+}

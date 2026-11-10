@@ -1,0 +1,258 @@
+{
+ "format_version": "1.12.0",
+ "minecraft:geometry": [
+  {
+   "description": {
+    "identifier": "geometry.alexsmobs.straddler",
+    "texture_width": 128,
+    "texture_height": 128,
+    "visible_bounds_width": 2.4125,
+    "visible_bounds_height": 3.15,
+    "visible_bounds_offset": [
+     0,
+     1.375,
+     0
+    ]
+   },
+   "bones": [
+    {
+     "name": "root",
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "name": "body",
+     "parent": "root",
+     "pivot": [
+      0.0,
+      14.0,
+      0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -14.0,
+        15.0,
+        -7.0
+       ],
+       "size": [
+        28.0,
+        11.0,
+        14.0
+       ],
+       "uv": [
+        0,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "hair",
+     "parent": "body",
+     "pivot": [
+      0.0,
+      27.0,
+      0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -6.0,
+        26.0,
+        0.0
+       ],
+       "size": [
+        12.0,
+        5.0,
+        0.01
+       ],
+       "uv": [
+        23,
+        26
+       ]
+      }
+     ]
+    },
+    {
+     "name": "horn_left",
+     "parent": "body",
+     "pivot": [
+      9.5,
+      26.0,
+      -4.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        7.0,
+        26.0,
+        -4.0
+       ],
+       "size": [
+        6.0,
+        18.0,
+        10.0
+       ],
+       "uv": [
+        0,
+        26
+       ]
+      }
+     ]
+    },
+    {
+     "name": "hair_left",
+     "parent": "horn_left",
+     "pivot": [
+      7.0,
+      43.0,
+      6.0
+     ],
+     "rotation": [
+      32.4982,
+      -15.0,
+      -0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        7.0,
+        37.0,
+        6.0
+       ],
+       "size": [
+        0.01,
+        6.0,
+        16.0
+       ],
+       "uv": [
+        33,
+        33
+       ]
+      }
+     ]
+    },
+    {
+     "name": "horn_right",
+     "parent": "body",
+     "pivot": [
+      -9.5,
+      26.0,
+      -4.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -13.0,
+        26.0,
+        -4.0
+       ],
+       "size": [
+        6.0,
+        18.0,
+        10.0
+       ],
+       "uv": [
+        0,
+        26
+       ],
+       "mirror": true
+      }
+     ]
+    },
+    {
+     "name": "hair_right",
+     "parent": "horn_right",
+     "pivot": [
+      -7.0,
+      43.0,
+      6.0
+     ],
+     "rotation": [
+      32.4982,
+      15.0,
+      -0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -7.0,
+        37.0,
+        6.0
+       ],
+       "size": [
+        0.01,
+        6.0,
+        16.0
+       ],
+       "uv": [
+        33,
+        33
+       ],
+       "mirror": true
+      }
+     ]
+    },
+    {
+     "name": "leg_left",
+     "parent": "body",
+     "pivot": [
+      7.0,
+      14.5,
+      0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        4.0,
+        0.0,
+        -3.0
+       ],
+       "size": [
+        6.0,
+        15.0,
+        6.0
+       ],
+       "uv": [
+        50,
+        26
+       ]
+      }
+     ]
+    },
+    {
+     "name": "leg_right",
+     "parent": "body",
+     "pivot": [
+      -7.0,
+      14.5,
+      0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -10.0,
+        0.0,
+        -3.0
+       ],
+       "size": [
+        6.0,
+        15.0,
+        6.0
+       ],
+       "uv": [
+        50,
+        26
+       ],
+       "mirror": true
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

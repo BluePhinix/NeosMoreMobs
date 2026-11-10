@@ -1,0 +1,39 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:grizzly_bear",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/grizzly_bear"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.grizzly_bear"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.grizzly_bear.idle",
+        "walk": "animation.alexsmobs.grizzly_bear.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "attack": "animation.alexsmobs.grizzly_bear.maul",
+        "move": "controller.animation.alexsmobs.ground",
+        "attack_controller": "controller.animation.alexsmobs.attack"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move",
+          "attack_controller"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#6B4A2B",
+        "overlay_color": "#2F1D12"
+      }
+    }
+  }
+}

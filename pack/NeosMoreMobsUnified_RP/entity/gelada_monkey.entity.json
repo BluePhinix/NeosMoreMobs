@@ -1,0 +1,39 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:gelada_monkey",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/gelada_monkey"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.gelada_monkey"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.gelada_monkey.idle",
+        "walk": "animation.alexsmobs.gelada_monkey.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "attack": "animation.alexsmobs.gelada_monkey.swipe_l",
+        "move": "controller.animation.alexsmobs.ground",
+        "attack_controller": "controller.animation.alexsmobs.attack"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move",
+          "attack_controller"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#85634F",
+        "overlay_color": "#492713"
+      }
+    }
+  }
+}

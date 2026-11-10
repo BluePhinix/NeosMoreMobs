@@ -1,0 +1,272 @@
+{
+ "format_version": "1.12.0",
+ "minecraft:geometry": [
+  {
+   "description": {
+    "identifier": "geometry.alexsmobs.flying_fish",
+    "texture_width": 64,
+    "texture_height": 64,
+    "visible_bounds_width": 2.4125,
+    "visible_bounds_height": 1.025,
+    "visible_bounds_offset": [
+     0,
+     0.125,
+     0
+    ]
+   },
+   "bones": [
+    {
+     "name": "root",
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "name": "body",
+     "parent": "root",
+     "pivot": [
+      0.0,
+      2.0,
+      -2.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -1.5,
+        0.0,
+        -6.0
+       ],
+       "size": [
+        3.0,
+        4.0,
+        8.0
+       ],
+       "uv": [
+        11,
+        16
+       ]
+      },
+      {
+       "origin": [
+        -1.5,
+        1.0,
+        -7.0
+       ],
+       "size": [
+        3.0,
+        3.0,
+        1.0
+       ],
+       "uv": [
+        10,
+        6
+       ]
+      }
+     ]
+    },
+    {
+     "name": "left_pectoralFin",
+     "parent": "body",
+     "pivot": [
+      1.5,
+      2.0,
+      -3.0
+     ],
+     "rotation": [
+      42.989,
+      -75.4528,
+      48.69
+     ],
+     "cubes": [
+      {
+       "origin": [
+        1.5,
+        1.99,
+        -5.0
+       ],
+       "size": [
+        13.0,
+        0.01,
+        5.0
+       ],
+       "uv": [
+        0,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "right_pectoralFin",
+     "parent": "body",
+     "pivot": [
+      -1.5,
+      2.0,
+      -3.0
+     ],
+     "rotation": [
+      42.989,
+      75.4528,
+      -48.69
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -14.5,
+        1.99,
+        -5.0
+       ],
+       "size": [
+        13.0,
+        0.01,
+        5.0
+       ],
+       "uv": [
+        0,
+        0
+       ],
+       "mirror": true
+      }
+     ]
+    },
+    {
+     "name": "tail",
+     "parent": "body",
+     "pivot": [
+      0.0,
+      3.0,
+      2.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -1.0,
+        1.0,
+        2.0
+       ],
+       "size": [
+        2.0,
+        3.0,
+        8.0
+       ],
+       "uv": [
+        26,
+        6
+       ]
+      },
+      {
+       "origin": [
+        0.0,
+        4.0,
+        4.0
+       ],
+       "size": [
+        0.01,
+        1.0,
+        2.0
+       ],
+       "uv": [
+        0,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "tail_fin",
+     "parent": "tail",
+     "pivot": [
+      0.0,
+      2.0,
+      8.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        0.0,
+        -1.0,
+        7.0
+       ],
+       "size": [
+        0.01,
+        8.0,
+        9.0
+       ],
+       "uv": [
+        0,
+        6
+       ]
+      }
+     ]
+    },
+    {
+     "name": "left_pelvicFin",
+     "parent": "tail",
+     "pivot": [
+      1.0,
+      1.0,
+      3.0
+     ],
+     "rotation": [
+      -0.0,
+      0.0,
+      32.4982
+     ],
+     "cubes": [
+      {
+       "origin": [
+        1.0,
+        -3.0,
+        3.0
+       ],
+       "size": [
+        0.01,
+        4.0,
+        4.0
+       ],
+       "uv": [
+        0,
+        6
+       ]
+      }
+     ]
+    },
+    {
+     "name": "right_pelvicFin",
+     "parent": "tail",
+     "pivot": [
+      -1.0,
+      1.0,
+      3.0
+     ],
+     "rotation": [
+      -0.0,
+      0.0,
+      -32.4982
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -1.0,
+        -3.0,
+        3.0
+       ],
+       "size": [
+        0.01,
+        4.0,
+        4.0
+       ],
+       "uv": [
+        0,
+        6
+       ],
+       "mirror": true
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "neosmoremobs:penguin",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/neosmoremobs/penguin"
+      },
+      "geometry": {
+        "default": "geometry.neosmoremobs.penguin"
+      },
+      "animations": {
+        "idle": "animation.neosmoremobs.penguin.idle",
+        "walk": "animation.neosmoremobs.penguin.walk",
+        "run": "animation.neosmoremobs.penguin.run",
+        "look_at_target": "animation.common.look_at_target",
+        "swim": "animation.neosmoremobs.penguin.swim",
+        "move": "controller.animation.neosmoremobs.locomotion_swim"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ],
+        "scale": "0.75"
+      },
+      "render_controllers": [
+        "controller.render.neosmoremobs.penguin"
+      ],
+      "spawn_egg": {
+        "base_color": "#1B2630",
+        "overlay_color": "#F2EFE5"
+      }
+    }
+  }
+}

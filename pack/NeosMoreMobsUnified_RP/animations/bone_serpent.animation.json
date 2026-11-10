@@ -1,0 +1,147 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.alexsmobs.bone_serpent.walk": {
+   "loop": true,
+   "anim_time_update": "query.modified_distance_moved",
+   "bones": {
+    "body1": {
+     "rotation": [
+      0,
+      "math.sin(q.anim_time * 150 + 0) * 4",
+      0
+     ]
+    },
+    "body2": {
+     "rotation": [
+      0,
+      "math.sin(q.anim_time * 150 + 45) * 4",
+      0
+     ]
+    },
+    "body3": {
+     "rotation": [
+      0,
+      "math.sin(q.anim_time * 150 + 90) * 4",
+      0
+     ]
+    },
+    "body4": {
+     "rotation": [
+      0,
+      "math.sin(q.anim_time * 150 + 135) * 4",
+      0
+     ]
+    },
+    "tailbone": {
+     "rotation": [
+      0,
+      "math.sin(q.anim_time * 150 + 180) * 4",
+      0
+     ]
+    },
+    "head": {
+     "rotation": [
+      0,
+      "math.sin(q.anim_time * 150) * -3",
+      0
+     ]
+    }
+   }
+  },
+  "animation.alexsmobs.bone_serpent.idle": {
+   "loop": true,
+   "bones": {
+    "body1": {
+     "rotation": [
+      0,
+      "math.sin(q.anim_time * 60 + 0) * 2",
+      0
+     ]
+    },
+    "body2": {
+     "rotation": [
+      0,
+      "math.sin(q.anim_time * 60 + 40) * 2",
+      0
+     ]
+    },
+    "body3": {
+     "rotation": [
+      0,
+      "math.sin(q.anim_time * 60 + 80) * 2",
+      0
+     ]
+    },
+    "body4": {
+     "rotation": [
+      0,
+      "math.sin(q.anim_time * 60 + 120) * 2",
+      0
+     ]
+    },
+    "tailbone": {
+     "rotation": [
+      0,
+      "math.sin(q.anim_time * 60 + 160) * 2",
+      0
+     ]
+    },
+    "head": {
+     "rotation": [
+      0,
+      "math.sin(q.anim_time * 60) * -2",
+      0
+     ]
+    }
+   }
+  },
+  "animation.alexsmobs.bone_serpent.fly": {
+   "loop": true,
+   "bones": {
+    "body1": {
+     "rotation": [
+      0,
+      "math.sin(q.anim_time * 60 + 0) * 2",
+      0
+     ]
+    },
+    "body2": {
+     "rotation": [
+      0,
+      "math.sin(q.anim_time * 60 + 40) * 2",
+      0
+     ]
+    },
+    "body3": {
+     "rotation": [
+      0,
+      "math.sin(q.anim_time * 60 + 80) * 2",
+      0
+     ]
+    },
+    "body4": {
+     "rotation": [
+      0,
+      "math.sin(q.anim_time * 60 + 120) * 2",
+      0
+     ]
+    },
+    "tailbone": {
+     "rotation": [
+      0,
+      "math.sin(q.anim_time * 60 + 160) * 2",
+      0
+     ]
+    },
+    "head": {
+     "rotation": [
+      0,
+      "math.sin(q.anim_time * 60) * -2",
+      0
+     ]
+    }
+   }
+  }
+ }
+}

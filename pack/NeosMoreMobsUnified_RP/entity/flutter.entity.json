@@ -1,0 +1,37 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:flutter",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/flutter"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.flutter"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.flutter.idle",
+        "walk": "animation.alexsmobs.flutter.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "fly": "animation.alexsmobs.flutter.fly",
+        "move": "controller.animation.alexsmobs.flyer"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#5C4930",
+        "overlay_color": "#200D00"
+      }
+    }
+  }
+}

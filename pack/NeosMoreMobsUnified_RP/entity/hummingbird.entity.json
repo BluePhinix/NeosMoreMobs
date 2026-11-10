@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:hummingbird",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/hummingbird"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.hummingbird"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.hummingbird.walk",
+        "walk": "animation.alexsmobs.hummingbird.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "fly": "animation.alexsmobs.hummingbird.fly",
+        "move": "controller.animation.alexsmobs.flyer"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ],
+        "scale": "0.75"
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#2C8C6A",
+        "overlay_color": "#E84A5F"
+      }
+    }
+  }
+}

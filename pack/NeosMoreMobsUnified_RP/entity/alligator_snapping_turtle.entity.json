@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:alligator_snapping_turtle",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/alligator_snapping_turtle"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.alligator_snapping_turtle"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.alligator_snapping_turtle.idle",
+        "walk": "animation.alexsmobs.alligator_snapping_turtle.idle",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "move": "controller.animation.alexsmobs.ground"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#47332A",
+        "overlay_color": "#0B0000"
+      }
+    }
+  }
+}

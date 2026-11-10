@@ -1,0 +1,119 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.alexsmobs.skreecher.walk": {
+   "loop": true,
+   "anim_time_update": "query.modified_distance_moved",
+   "bones": {
+    "body": {
+     "rotation": [
+      "22.5001 + -(math.cos(q.anim_time * 38.2 + 0.00) * 34.377 + 17.189)",
+      "math.cos(q.anim_time * 38.2 + 0.00) * 6.875",
+      -0.0
+     ]
+    },
+    "head": {
+     "rotation": [
+      "-30.0001 + -(math.cos(q.anim_time * 38.2 + 17.19) * -17.189 + 17.189)",
+      "math.cos(q.anim_time * 38.2 + 0.00) * -6.875",
+      -0.0
+     ]
+    },
+    "leftArm": {
+     "rotation": [
+      -90.0002,
+      "-67.5002 + math.cos(q.anim_time * 38.2 + 0.00) * -34.377 + math.cos(q.anim_time * 38.2 + -114.59) * 34.377 + -11.459",
+      90.0002
+     ]
+    },
+    "rightArm": {
+     "rotation": [
+      -90.0002,
+      "67.5002 + math.cos(q.anim_time * 38.2 + 0.00) * 34.377 + math.cos(q.anim_time * 38.2 + -114.59) * 34.377 + 11.459",
+      -90.0002
+     ]
+    },
+    "rightLeg": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 38.2 + 57.30) * 34.377 + 17.189 + math.cos(q.anim_time * 38.2 + 114.59) * 34.377 + 22.918)",
+      17.4981,
+      -0.0
+     ]
+    },
+    "leftLeg": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 38.2 + 57.30) * 34.377 + 17.189 + math.cos(q.anim_time * 38.2 + 114.59) * -34.377 + -22.918)",
+      -17.4981,
+      -0.0
+     ]
+    }
+   }
+  },
+  "animation.alexsmobs.skreecher.idle": {
+   "loop": true,
+   "bones": {
+    "body": {
+     "rotation": [
+      "22.5001 + -(math.cos(q.anim_time * 114.6 + 0.00) * 5.730)",
+      0.0,
+      -0.0
+     ]
+    },
+    "leftArmPivot": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 114.6 + 0.00) * -5.730)",
+      0.0,
+      -0.0
+     ]
+    },
+    "rightArmPivot": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 114.6 + 0.00) * -5.730)",
+      0.0,
+      -0.0
+     ]
+    },
+    "head": {
+     "position": [
+      0.0,
+      "-(math.sin(q.anim_time * 114.6) * -0.200 - -0.200)",
+      0.0
+     ]
+    }
+   }
+  },
+  "animation.alexsmobs.skreecher.fly": {
+   "loop": true,
+   "bones": {
+    "body": {
+     "rotation": [
+      "22.5001 + -(math.cos(q.anim_time * 114.6 + 0.00) * 5.730)",
+      0.0,
+      -0.0
+     ]
+    },
+    "leftArmPivot": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 114.6 + 0.00) * -5.730)",
+      0.0,
+      -0.0
+     ]
+    },
+    "rightArmPivot": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 114.6 + 0.00) * -5.730)",
+      0.0,
+      -0.0
+     ]
+    },
+    "head": {
+     "position": [
+      0.0,
+      "-(math.sin(q.anim_time * 114.6) * -0.200 - -0.200)",
+      0.0
+     ]
+    }
+   }
+  }
+ }
+}

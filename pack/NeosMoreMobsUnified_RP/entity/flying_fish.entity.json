@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:flying_fish",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/flying_fish"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.flying_fish"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.flying_fish.idle",
+        "walk": "animation.alexsmobs.flying_fish.idle",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "fly": "animation.alexsmobs.flying_fish.fly",
+        "move": "controller.animation.alexsmobs.flyer"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ],
+        "scale": "0.8"
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#7BAADB",
+        "overlay_color": "#3F6E9F"
+      }
+    }
+  }
+}

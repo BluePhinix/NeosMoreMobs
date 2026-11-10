@@ -1,0 +1,37 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:guster",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/guster"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.guster"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.guster.idle",
+        "walk": "animation.alexsmobs.guster.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "fly": "animation.alexsmobs.guster.fly",
+        "move": "controller.animation.alexsmobs.flyer"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#B0B0B0",
+        "overlay_color": "#6A8A9A"
+      }
+    }
+  }
+}

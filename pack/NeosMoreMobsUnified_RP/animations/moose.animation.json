@@ -1,0 +1,263 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.alexsmobs.moose.walk": {
+   "loop": true,
+   "anim_time_update": "query.modified_distance_moved",
+   "bones": {
+    "body": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 26.7 + 0.00) * -1.719)",
+      0.0,
+      -0.0
+     ],
+     "position": [
+      0.0,
+      "-(math.sin(q.anim_time * 26.7) * 0.600 - 0.600)",
+      0.0
+     ]
+    },
+    "neck": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 26.7 + 57.30) * -8.594)",
+      0.0,
+      -0.0
+     ]
+    },
+    "head": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 26.7 + 57.30) * 8.594)",
+      0.0,
+      -0.0
+     ]
+    },
+    "right_arm": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 26.7 + 0.00) * -37.815)",
+      0.0,
+      -0.0
+     ],
+     "position": [
+      0.0,
+      "-(math.sin(q.anim_time * 26.7) * 0.600 - 0.600)",
+      0.0
+     ]
+    },
+    "left_arm": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 26.7 + 0.00) * 37.815)",
+      0.0,
+      -0.0
+     ],
+     "position": [
+      0.0,
+      "-(math.sin(q.anim_time * 26.7) * 0.600 - 0.600)",
+      0.0
+     ]
+    },
+    "right_leg": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 26.7 + 0.00) * 37.815)",
+      0.0,
+      -0.0
+     ],
+     "position": [
+      0.0,
+      "-(math.sin(q.anim_time * 26.7) * 0.600 - 0.600)",
+      0.0
+     ]
+    },
+    "left_leg": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 26.7 + 0.00) * -37.815)",
+      0.0,
+      -0.0
+     ],
+     "position": [
+      0.0,
+      "-(math.sin(q.anim_time * 26.7) * 0.600 - 0.600)",
+      0.0
+     ]
+    }
+   }
+  },
+  "animation.alexsmobs.moose.idle": {
+   "loop": true,
+   "bones": {
+    "beard": {
+     "rotation": [
+      -0.0,
+      0.0,
+      "-(math.cos(q.anim_time * 114.6 + 0.00) * 22.918)"
+     ]
+    },
+    "left_ear": {
+     "rotation": [
+      17.4981,
+      -15.0,
+      "-22.5001 + -(math.cos(q.anim_time * 114.6 + 57.30) * 5.730 + -11.459)"
+     ]
+    },
+    "right_ear": {
+     "rotation": [
+      17.4981,
+      15.0,
+      "22.5001 + -(math.cos(q.anim_time * 114.6 + 57.30) * -5.730 + 11.459)"
+     ]
+    },
+    "neck": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 114.6 + 0.00) * 5.730)",
+      0.0,
+      -0.0
+     ]
+    },
+    "head": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 114.6 + 28.65) * -5.730)",
+      0.0,
+      -0.0
+     ]
+    }
+   }
+  },
+  "animation.alexsmobs.moose.eat_grass": {
+   "loop": false,
+   "animation_length": 1.5,
+   "bones": {
+    "head": {
+     "rotation": {
+      "0.0": [
+       -0.0,
+       0.0,
+       -0.0
+      ],
+      "0.25": [
+       -4.0,
+       0.0,
+       -0.0
+      ],
+      "0.45": [
+       -10.0,
+       0.0,
+       -0.0
+      ],
+      "0.85": [
+       -10.0,
+       0.0,
+       -0.0
+      ],
+      "1.25": [
+       -10.0,
+       0.0,
+       -0.0
+      ],
+      "1.5": [
+       -0.0,
+       0.0,
+       -0.0
+      ]
+     }
+    },
+    "neck": {
+     "rotation": {
+      "0.0": [
+       -0.0,
+       0.0,
+       -0.0
+      ],
+      "0.25": [
+       -50.0,
+       0.0,
+       -0.0
+      ],
+      "0.45": [
+       -70.0,
+       0.0,
+       -0.0
+      ],
+      "0.65": [
+       -50.0,
+       0.0,
+       -0.0
+      ],
+      "0.85": [
+       -70.0,
+       0.0,
+       -0.0
+      ],
+      "1.05": [
+       -50.0,
+       0.0,
+       -0.0
+      ],
+      "1.25": [
+       -70.0,
+       0.0,
+       -0.0
+      ],
+      "1.5": [
+       -0.0,
+       0.0,
+       -0.0
+      ]
+     }
+    }
+   }
+  },
+  "animation.alexsmobs.moose.attack": {
+   "loop": false,
+   "animation_length": 0.75,
+   "bones": {
+    "head": {
+     "rotation": {
+      "0.0": [
+       -0.0,
+       0.0,
+       -0.0
+      ],
+      "0.4": [
+       -10.0,
+       0.0,
+       -0.0
+      ],
+      "0.55": [
+       20.0,
+       0.0,
+       -0.0
+      ],
+      "0.75": [
+       -0.0,
+       0.0,
+       -0.0
+      ]
+     }
+    },
+    "neck": {
+     "rotation": {
+      "0.0": [
+       -0.0,
+       0.0,
+       -0.0
+      ],
+      "0.4": [
+       -50.0,
+       0.0,
+       -0.0
+      ],
+      "0.55": [
+       34.0,
+       0.0,
+       -0.0
+      ],
+      "0.75": [
+       -0.0,
+       0.0,
+       -0.0
+      ]
+     }
+    }
+   }
+  }
+ }
+}

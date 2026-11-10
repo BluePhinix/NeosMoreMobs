@@ -1,0 +1,39 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:dropbear",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/dropbear"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.dropbear"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.dropbear.idle",
+        "walk": "animation.alexsmobs.dropbear.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "attack": "animation.alexsmobs.dropbear.bite",
+        "move": "controller.animation.alexsmobs.ground",
+        "attack_controller": "controller.animation.alexsmobs.attack"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move",
+          "attack_controller"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#7E3540",
+        "overlay_color": "#420004"
+      }
+    }
+  }
+}

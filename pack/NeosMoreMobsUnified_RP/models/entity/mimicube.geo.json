@@ -1,0 +1,174 @@
+{
+ "format_version": "1.12.0",
+ "minecraft:geometry": [
+  {
+   "description": {
+    "identifier": "geometry.alexsmobs.mimicube",
+    "texture_width": 64,
+    "texture_height": 64,
+    "visible_bounds_width": 1.6,
+    "visible_bounds_height": 1.275,
+    "visible_bounds_offset": [
+     0,
+     0.4375,
+     0
+    ]
+   },
+   "bones": [
+    {
+     "name": "root",
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "name": "body",
+     "parent": "root",
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -8.0,
+        0.0,
+        -8.0
+       ],
+       "size": [
+        16.0,
+        14.0,
+        16.0
+       ],
+       "uv": [
+        0,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "innerbody",
+     "parent": "root",
+     "pivot": [
+      0.0,
+      7.0,
+      0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -4.0,
+        3.0,
+        -4.0
+       ],
+       "size": [
+        8.0,
+        8.0,
+        8.0
+       ],
+       "uv": [
+        0,
+        31
+       ]
+      }
+     ]
+    },
+    {
+     "name": "mouth",
+     "parent": "innerbody",
+     "pivot": [
+      2.0,
+      3.0,
+      -5.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        0.0,
+        3.0,
+        -5.0
+       ],
+       "size": [
+        2.0,
+        2.0,
+        1.0
+       ],
+       "uv": [
+        0,
+        12
+       ]
+      }
+     ]
+    },
+    {
+     "name": "eye_left",
+     "parent": "innerbody",
+     "pivot": [
+      3.5,
+      8.5,
+      -4.0
+     ],
+     "rotation": [
+      -0.0,
+      0.0,
+      -17.4981
+     ],
+     "cubes": [
+      {
+       "origin": [
+        2.0,
+        7.0,
+        -5.0
+       ],
+       "size": [
+        3.0,
+        3.0,
+        2.0
+       ],
+       "uv": [
+        0,
+        6
+       ]
+      }
+     ]
+    },
+    {
+     "name": "eye_right",
+     "parent": "innerbody",
+     "pivot": [
+      -3.5,
+      7.5,
+      -4.0
+     ],
+     "rotation": [
+      -0.0,
+      0.0,
+      22.5001
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -5.0,
+        6.0,
+        -5.0
+       ],
+       "size": [
+        3.0,
+        3.0,
+        2.0
+       ],
+       "uv": [
+        0,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

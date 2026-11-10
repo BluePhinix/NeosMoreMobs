@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "neosmoremobs:lioness",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/neosmoremobs/lioness"
+      },
+      "geometry": {
+        "default": "geometry.neosmoremobs.lioness"
+      },
+      "animations": {
+        "idle": "animation.neosmoremobs.lioness.idle",
+        "walk": "animation.neosmoremobs.lioness.walk",
+        "run": "animation.neosmoremobs.lioness.run",
+        "look_at_target": "animation.common.look_at_target",
+        "attack": "animation.neosmoremobs.lioness.attack",
+        "move": "controller.animation.neosmoremobs.locomotion",
+        "attack_controller": "controller.animation.neosmoremobs.attack"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move",
+          "attack_controller"
+        ],
+        "scale": "0.9"
+      },
+      "render_controllers": [
+        "controller.render.neosmoremobs.lioness"
+      ],
+      "spawn_egg": {
+        "base_color": "#C99A5E",
+        "overlay_color": "#B98748"
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:spectre",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/spectre"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.spectre"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.spectre.idle",
+        "walk": "animation.alexsmobs.spectre.idle",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "fly": "animation.alexsmobs.spectre.fly",
+        "move": "controller.animation.alexsmobs.flyer"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ],
+        "scale": "1.3"
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#5C60A2",
+        "overlay_color": "#202466"
+      }
+    }
+  }
+}

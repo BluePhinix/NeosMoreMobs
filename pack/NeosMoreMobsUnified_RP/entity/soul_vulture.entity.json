@@ -1,0 +1,37 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:soul_vulture",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/soul_vulture"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.soul_vulture"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.soul_vulture.idle",
+        "walk": "animation.alexsmobs.soul_vulture.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "fly": "animation.alexsmobs.soul_vulture.fly",
+        "move": "controller.animation.alexsmobs.flyer"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#33414B",
+        "overlay_color": "#00050F"
+      }
+    }
+  }
+}

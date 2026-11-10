@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:mimicube",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/mimicube"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.mimicube"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.mimicube.idle",
+        "walk": "animation.alexsmobs.mimicube.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "move": "controller.animation.alexsmobs.ground"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#493F5F",
+        "overlay_color": "#0D0323"
+      }
+    }
+  }
+}

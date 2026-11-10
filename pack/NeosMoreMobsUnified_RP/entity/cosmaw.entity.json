@@ -1,0 +1,37 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:cosmaw",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/cosmaw"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.cosmaw"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.cosmaw.idle",
+        "walk": "animation.alexsmobs.cosmaw.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "fly": "animation.alexsmobs.cosmaw.fly",
+        "move": "controller.animation.alexsmobs.flyer"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#7068AB",
+        "overlay_color": "#342C6F"
+      }
+    }
+  }
+}

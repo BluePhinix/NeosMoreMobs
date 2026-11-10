@@ -1,0 +1,40 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:capuchin_monkey",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/capuchin_monkey"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.capuchin_monkey"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.capuchin_monkey.idle",
+        "walk": "animation.alexsmobs.capuchin_monkey.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "attack": "animation.alexsmobs.capuchin_monkey.scratch",
+        "move": "controller.animation.alexsmobs.ground",
+        "attack_controller": "controller.animation.alexsmobs.attack"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move",
+          "attack_controller"
+        ],
+        "scale": "0.8"
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#E8D3B0",
+        "overlay_color": "#3B2A1C"
+      }
+    }
+  }
+}

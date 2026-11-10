@@ -1,0 +1,108 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.alexsmobs.mantis_shrimp.walk": {
+   "loop": true,
+   "anim_time_update": "query.modified_distance_moved",
+   "bones": {
+    "legs_front": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 34.4 + 114.59) * -34.377)",
+      0.0,
+      -0.0
+     ],
+     "position": [
+      0.0,
+      "-(-math.abs(math.sin(q.anim_time * 17.2)) * 2.400)",
+      0.0
+     ]
+    },
+    "legs_back": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 34.4 + 114.59) * -6.875)",
+      0.0,
+      -0.0
+     ],
+     "position": [
+      0.0,
+      "-(-math.abs(math.sin(q.anim_time * 17.2)) * 2.400)",
+      0.0
+     ]
+    },
+    "body": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 34.4 + 171.89) * -6.875)",
+      0.0,
+      -0.0
+     ],
+     "position": [
+      0.0,
+      "-(-math.abs(math.sin(q.anim_time * 17.2)) * 2.400)",
+      0.0
+     ]
+    },
+    "tail": {
+     "rotation": [
+      "12.5019 + -(math.cos(q.anim_time * 34.4 + 171.89) * -17.189 + -11.459)",
+      0.0,
+      -0.0
+     ]
+    },
+    "head": {
+     "rotation": [
+      "-20.002 + -(math.cos(q.anim_time * 34.4 + 114.59) * -3.438)",
+      0.0,
+      -0.0
+     ]
+    }
+   }
+  },
+  "animation.alexsmobs.mantis_shrimp.idle": {
+   "loop": true,
+   "bones": {
+    "whisker_left": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 171.9 + 0.00) * 17.189 + -14.324)",
+      "-22.5001 + math.cos(q.anim_time * 114.6 + 57.30) * 12.892",
+      -0.0
+     ]
+    },
+    "whisker_right": {
+     "rotation": [
+      "-(math.cos(q.anim_time * 171.9 + 0.00) * -17.189 + 14.324)",
+      "22.5001 + math.cos(q.anim_time * 114.6 + 57.30) * 12.892",
+      -0.0
+     ]
+    },
+    "flapper_left": {
+     "rotation": [
+      27.502,
+      "12.5019 + math.cos(q.anim_time * 114.6 + 114.59) * 12.892 + -17.189",
+      -0.0
+     ]
+    },
+    "flapper_right": {
+     "rotation": [
+      27.502,
+      "-12.5019 + math.cos(q.anim_time * 114.6 + 114.59) * -12.892 + -17.189",
+      -0.0
+     ]
+    },
+    "arm_left": {
+     "rotation": [
+      -0.0,
+      "math.cos(q.anim_time * 114.6 + 57.30) * 8.594 + -11.459",
+      -0.0
+     ]
+    },
+    "arm_right": {
+     "rotation": [
+      -0.0,
+      "math.cos(q.anim_time * 114.6 + 57.30) * -8.594 + -11.459",
+      -0.0
+     ]
+    }
+   }
+  }
+ }
+}

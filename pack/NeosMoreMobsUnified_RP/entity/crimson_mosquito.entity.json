@@ -1,0 +1,37 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:crimson_mosquito",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/crimson_mosquito"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.crimson_mosquito"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.crimson_mosquito.idle",
+        "walk": "animation.alexsmobs.crimson_mosquito.idle",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "fly": "animation.alexsmobs.crimson_mosquito.fly",
+        "move": "controller.animation.alexsmobs.flyer"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#57383D",
+        "overlay_color": "#1B0001"
+      }
+    }
+  }
+}

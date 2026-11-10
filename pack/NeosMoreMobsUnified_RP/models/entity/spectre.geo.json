@@ -1,0 +1,197 @@
+{
+ "format_version": "1.12.0",
+ "minecraft:geometry": [
+  {
+   "description": {
+    "identifier": "geometry.alexsmobs.spectre",
+    "texture_width": 256,
+    "texture_height": 256,
+    "visible_bounds_width": 5.35,
+    "visible_bounds_height": 1.0875,
+    "visible_bounds_offset": [
+     0,
+     0.3438,
+     0
+    ]
+   },
+   "bones": [
+    {
+     "name": "root",
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "name": "body",
+     "parent": "root",
+     "pivot": [
+      0.0,
+      0.5,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -45.0001,
+      -0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -12.0,
+        0.0,
+        -12.0
+       ],
+       "size": [
+        24.0,
+        6.0,
+        24.0
+       ],
+       "uv": [
+        43,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "spine",
+     "parent": "body",
+     "pivot": [
+      0.0,
+      6.0,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      45.0001,
+      -0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        0.0,
+        1.0,
+        -14.0
+       ],
+       "size": [
+        0.01,
+        8.0,
+        42.0
+       ],
+       "uv": [
+        0,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "tail",
+     "parent": "spine",
+     "pivot": [
+      0.0,
+      5.0,
+      28.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        0.0,
+        0.0,
+        28.0
+       ],
+       "size": [
+        0.01,
+        11.0,
+        27.0
+       ],
+       "uv": [
+        76,
+        31
+       ]
+      }
+     ]
+    },
+    {
+     "name": "wing_left_p",
+     "parent": "body",
+     "pivot": [
+      12.0,
+      3.0,
+      -12.0
+     ]
+    },
+    {
+     "name": "wing_left",
+     "parent": "wing_left_p",
+     "pivot": [
+      12.0,
+      3.0,
+      -12.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        12.0,
+        1.5,
+        -12.0
+       ],
+       "size": [
+        26.0,
+        3.0,
+        23.0
+       ],
+       "uv": [
+        76,
+        76
+       ]
+      }
+     ]
+    },
+    {
+     "name": "wing_right_p",
+     "parent": "body",
+     "pivot": [
+      -12.0,
+      3.0,
+      12.0
+     ],
+     "rotation": [
+      -0.0,
+      90.0002,
+      -0.0
+     ]
+    },
+    {
+     "name": "wing_right",
+     "parent": "wing_right_p",
+     "pivot": [
+      -12.0,
+      3.0,
+      12.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -38.0,
+        1.5,
+        12.0
+       ],
+       "size": [
+        26.0,
+        3.0,
+        23.0
+       ],
+       "uv": [
+        0,
+        51
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

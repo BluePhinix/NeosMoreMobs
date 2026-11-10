@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "alexsmobs:giant_squid",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/alexsmobs/giant_squid"
+      },
+      "geometry": {
+        "default": "geometry.alexsmobs.giant_squid"
+      },
+      "animations": {
+        "idle": "animation.alexsmobs.giant_squid.idle",
+        "walk": "animation.alexsmobs.giant_squid.walk",
+        "look_at_target": "animation.alexsmobs.common.look_at_target",
+        "move": "controller.animation.alexsmobs.ground"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.alexsmobs.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#B15957",
+        "overlay_color": "#751D1B"
+      }
+    }
+  }
+}

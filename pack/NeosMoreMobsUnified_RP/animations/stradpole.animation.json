@@ -1,0 +1,44 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.alexsmobs.stradpole.walk": {
+   "loop": true,
+   "anim_time_update": "query.modified_distance_moved",
+   "bones": {
+    "body": {
+     "rotation": [
+      -0.0,
+      "math.cos(q.anim_time * 38.2 + 114.59) * -9.167",
+      "-(math.cos(q.anim_time * 38.2 + 0.00) * -4.584)"
+     ]
+    },
+    "tail": {
+     "rotation": [
+      -0.0,
+      "math.cos(q.anim_time * 53.4 + 114.59) * 45.837",
+      -0.0
+     ]
+    }
+   }
+  },
+  "animation.alexsmobs.stradpole.idle": {
+   "loop": true,
+   "bones": {
+    "hair_right": {
+     "rotation": [
+      -0.0,
+      0.0,
+      "65.0021 + -(math.cos(q.anim_time * 114.6 + 57.30) * -14.324)"
+     ]
+    },
+    "hair_left": {
+     "rotation": [
+      -0.0,
+      0.0,
+      "-65.0021 + -(math.cos(q.anim_time * 114.6 + 57.30) * 14.324)"
+     ]
+    }
+   }
+  }
+ }
+}
