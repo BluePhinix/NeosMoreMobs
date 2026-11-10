@@ -332,19 +332,17 @@ All other models, textures, animations, behavior files, and code in Neo's More M
 were created for this project by Neo. Third-party model assets remain the property
 of their respective authors and are used under the licenses above.
 
-Neo's own work is released as open source under the following terms:
+Neo's own work is shared openly, free of charge, under two grants:
 
 - Code and data - behavior JSON, entity/client JSON, spawn rules, loot tables,
   recipes, feature rules, structures, scripts, and the Python build tooling:
-  MIT License (text below).
+  MIT License (text below). Use it for anything, including commercial projects.
 
-- Art assets - 3D models, textures, and animations created for this project:
-  Creative Commons Attribution 4.0 International (CC BY 4.0).
-  https://creativecommons.org/licenses/by/4.0/
-  You may share and adapt them, including commercially, as long as you give
-  appropriate credit to Neo (NeoPhinixMC) and link to the license.
+- Artwork - 3D models, textures, animations, renders and posters created for
+  this project: NEO'S ART LICENSE 1.0 (text below). Free to use, remix and
+  redistribute, but not to sell and not to put behind ads or ad-farms.
 
-Attribution for the CC BY 4.0 art assets:
+Attribution for the artwork:
   Neo's More Mobs by Neo (NeoPhinixMC) - https://github.com/BluePhinix
 
 These grants cover only the assets Neo created. They do not relicense any
@@ -353,8 +351,77 @@ terms that apply to the Alex's Mobs port layer.
 
 Note on the non-commercial bear: because the Grizzly Bear and Black Bear models
 are CC BY-NC 4.0, the addon as distributed - which includes those models - must
-not be sold or used commercially. The open source grants above apply to Neo's
-own assets on their own; reuse them commercially by removing the bear assets.
+not be sold or used commercially. Neo's artwork is non-commercial on its own
+terms as well, so the two agree.
+
+--------------------------------------------------------------------------------
+NEO'S ART LICENSE 1.0
+--------------------------------------------------------------------------------
+Copyright (c) 2026 Neo (NeoPhinixMC)
+
+This license covers the 3D models, textures, animations, renders and posters
+that Neo created for Neo's More Mobs ("the Artwork"). It does not cover code or
+data (MIT, below), and it does not cover the third-party models in sections 1-8,
+which stay under their own licenses.
+
+1. YOU MAY
+
+   - Use, copy, share and redistribute the Artwork, unchanged or modified, in
+     free addons, mods, resource packs, maps, datapacks, videos, streams and
+     screenshots.
+   - Remix, edit, retexture, re-rig, re-animate and build on it.
+   - Include it in any project that is distributed free of charge.
+
+2. YOU MUST
+
+   - Credit "Neo (NeoPhinixMC)" and link to this license, on the project page
+     or in the credits, wherever the Artwork appears.
+   - Keep this license on the Artwork and on anything you make from it. You may
+     not relicense the Artwork, or a derivative of it, under other terms.
+   - State what you changed, if you changed it.
+
+3. YOU MAY NOT
+
+   - Sell the Artwork, or sell access to it. This includes paid addons, paid
+     resource packs, paid model commissions that ship it, Patreon / Ko-fi /
+     Boosty / Gumroad-gated downloads, paywalls, and "donate to download"
+     links.
+   - Put the Artwork behind an ad-gate or an ad-wall: adf.ly, linkvertise,
+     ouo.io, shrinkme, shorturl-style ad shorteners, "click N ads to continue"
+     pages, countdown download hosts, or any link that pays per click.
+   - Upload the Artwork to a site that earns ad revenue from other people's
+     content: Minecraft server lists, mod and asset mirror farms, scraped pack
+     aggregators, or repost channels that exist to farm views.
+   - Claim you made the Artwork, or use Neo's name, logo or branding to promote
+     your project.
+
+4. ADVERTISING ALLOWANCE
+
+   A free project that uses the Artwork may carry at most ONE advertisement per
+   download project - for example a single banner or a single ad slot on the
+   project page or the download page. One ad, one project, nothing more. An ad
+   may never gate, delay or interrupt the download.
+
+5. TERMINATION
+
+   These rights end automatically if you break any term above. They come back
+   if you fix the breach within 30 days of being told about it. On termination
+   you must stop distributing the Artwork and remove it from your project.
+
+6. NO WARRANTY
+
+   The Artwork is provided "as is", without warranty of any kind, express or
+   implied, including but not limited to the warranties of merchantability,
+   fitness for a particular purpose and noninfringement. In no event shall the
+   author be liable for any claim, damages or other liability, whether in an
+   action of contract, tort or otherwise, arising from, out of or in connection
+   with the Artwork or its use.
+
+7. NO TRADEMARK RIGHTS
+
+   This license does not grant rights to the names "Neo", "NeoPhinixMC",
+   "Neo's More Mobs" or any associated logo, except for the credit required in
+   section 2.
 
 --------------------------------------------------------------------------------
 MIT LICENSE (Neo's code and data)

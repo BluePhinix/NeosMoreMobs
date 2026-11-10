@@ -44,19 +44,29 @@ They were written against the original authoring tree and use absolute paths at 
 
 ## License
 
-This project is open source, with third-party work kept under its own license:
+This project is shared openly, with third-party work kept under its own license:
 
 | Part | License |
 | --- | --- |
-| Code and data - behaviour JSON, entity JSON, spawn rules, loot, recipes, structures, build scripts | **MIT** |
-| Neo's models, textures and animations | **CC BY 4.0** |
+| Code and data - behaviour JSON, entity JSON, spawn rules, loot, recipes, structures, build scripts | **MIT** - use it for anything, including commercial projects |
+| Neo's models, textures, animations, renders and posters | **Neo's Art License 1.0** - free to use, remix and redistribute; no selling, no ad-gates, max one ad per download project |
 | Alex's Mobs 1.22.9 / Citadel port | **LGPL-3.0-or-later** |
 | Third-party models (elephant, bison, deer, whale, comb jelly, scorpion girl, Australia set) | **CC BY 4.0** |
 | Grizzly Bear / Black Bear model | **CC BY-NC 4.0** |
 
 Read [LICENSE.txt](LICENSE.txt) for the full grant and [CREDITS.txt](CREDITS.txt) for every third-party author with source links and a list of changes.
 
-**Note:** the Grizzly Bear and Black Bear models are licensed **non-commercial**, so the addon as distributed must not be sold. Neo's own assets can be reused commercially on their own - just remove the bear assets.
+### Neo's Art License 1.0 in short
+
+**You can** use, edit, retexture, re-rig, re-animate and redistribute the models, textures and animations in any free addon, mod, pack, map or video.
+
+**You must** credit *Neo (NeoPhinixMC)* and link the license, keep the license on anything you make from it, and say what you changed.
+
+**You can't** sell the artwork or sell access to it (paid packs, Patreon/Ko-fi/Boosty gates, "donate to download"), put it behind an ad-wall or ad-shortener (adf.ly, linkvertise, ouo.io and friends), or upload it to ad-revenue mirror farms and server-list scrapers.
+
+**Ads:** a free project may carry **one advertisement per download project** - one banner or one ad slot on the project or download page. Never an ad that gates or delays the download.
+
+**Note:** the Grizzly Bear and Black Bear models are CC BY-NC 4.0, and Neo's artwork is non-commercial on its own terms, so the addon as distributed must not be sold.
 
 ## Credits
 

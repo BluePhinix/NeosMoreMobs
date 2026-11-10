@@ -62,6 +62,6 @@ Alex's Mobs 1.22.9 and Citadel by AlexModGuy and contributors, LGPL-3.0.
 Original projects: https://github.com/AlexModGuy/AlexsMobs and https://github.com/AlexModGuy/Citadel
 
 ORIGINAL ASSETS
-All other models, textures and animations in this pack were created for Neo's More Mobs by Neo, and are released under CC BY 4.0. Behavior files, JSON and build scripts are released under MIT. See LICENSE.txt for the full grant.
+All other models, textures, animations, renders and posters in this pack were created for Neo's More Mobs by Neo, and are released under Neo's Art License 1.0: free to use, edit and redistribute, but not to sell and not to put behind ads, ad-walls or ad-revenue mirror sites. A free project may carry one advertisement per download project. Behavior files, JSON and build scripts are released under MIT. See LICENSE.txt for the full grant.
 
 The Grizzly Bear and Black Bear assets are licensed for non-commercial use only. This pack must not be sold while those assets are included.
